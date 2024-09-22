@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Резюме (Пробник).md",
+                "file": "Идеи/План развития.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Резюме (Пробник).md",
+                "file": "Идеи/План развития.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Резюме (Пробник).md",
+                "file": "Идеи/План развития.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Резюме (Пробник).md"
+                "file": "Идеи/План развития.md"
               }
             }
           }
@@ -147,10 +147,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "93c38509cbc4f9cd",
+  "active": "987a263230a811f8",
   "lastOpenFiles": [
-    "Резюме.md",
     "Резюме (Пробник).md",
+    "Резюме.md",
     "Идеи/План развития.md",
     "Еуые.md",
     "Temp (File).md",
