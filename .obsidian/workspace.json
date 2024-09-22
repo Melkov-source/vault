@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "17bcebd5b07451a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Идеи/План развития.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0159b3c7a182392e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Резюме.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "987a263230a811f8",
             "type": "leaf",
             "state": {
@@ -42,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "7a6a4102966a7740",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Резюме (Пробник).md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,12 +147,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "987a263230a811f8",
+  "active": "93c38509cbc4f9cd",
   "lastOpenFiles": [
     "Резюме.md",
     "Резюме (Пробник).md",
-    "Еуые.md",
     "Идеи/План развития.md",
+    "Еуые.md",
     "Temp (File).md",
     "Идеи",
     "Untitled.canvas"
