@@ -11,14 +11,11 @@
             "id": "17bcebd5b07451a3",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": -1136.1627149934359,
-                  "y": 257.53850020288826,
-                  "zoom": -0.6000000000000001
-                }
+                "file": "Идеи/План развития.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -88,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "Идеи/План развития.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "Идеи/План развития.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.canvas"
+                "file": "Идеи/План развития.md"
               }
             }
           }
@@ -153,6 +150,8 @@
   "active": "17bcebd5b07451a3",
   "lastOpenFiles": [
     "Temp (File).md",
+    "Идеи/План развития.md",
+    "Идеи",
     "Untitled.canvas"
   ]
 }
