@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Идеи/План развития.md",
+                "file": "Резюме (Пробник).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Идеи/План развития.md",
+                "file": "Резюме (Пробник).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Идеи/План развития.md",
+                "file": "Резюме (Пробник).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Идеи/План развития.md"
+                "file": "Резюме (Пробник).md"
               }
             }
           }
@@ -149,9 +149,9 @@
   },
   "active": "987a263230a811f8",
   "lastOpenFiles": [
+    "Идеи/План развития.md",
     "Резюме (Пробник).md",
     "Резюме.md",
-    "Идеи/План развития.md",
     "Еуые.md",
     "Temp (File).md",
     "Идеи",
