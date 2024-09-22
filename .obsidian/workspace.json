@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Резюме (Пробник).md",
+                "file": "Резюме (Пробник) (2024 Sep 22).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Резюме (Пробник).md",
+                "file": "Резюме (Пробник) (2024 Sep 22).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Резюме (Пробник).md",
+                "file": "Резюме (Пробник) (2024 Sep 22).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Резюме (Пробник).md"
+                "file": "Резюме (Пробник) (2024 Sep 22).md"
               }
             }
           }
@@ -149,8 +149,10 @@
   },
   "active": "987a263230a811f8",
   "lastOpenFiles": [
+    "Content/photo.jpeg",
+    "Content",
     "Идеи/План развития.md",
-    "Резюме (Пробник).md",
+    "Резюме (Пробник) (2024 Sep 22).md",
     "Резюме.md",
     "Еуые.md",
     "Temp (File).md",
