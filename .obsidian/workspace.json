@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Junior",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -172,7 +173,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "987a263230a811f8",
+  "active": "2f91e3a94919476b",
   "lastOpenFiles": [
     "Резюме.md",
     "Резюме2.md",
