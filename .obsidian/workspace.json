@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0159b3c7a182392e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Резюме.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Идеи/План развития.md",
+                "file": "Резюме.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Идеи/План развития.md",
+                "file": "Резюме.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Идеи/План развития.md"
+                "file": "Резюме.md"
               }
             }
           }
@@ -147,10 +160,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "17bcebd5b07451a3",
+  "active": "0159b3c7a182392e",
   "lastOpenFiles": [
-    "Temp (File).md",
     "Идеи/План развития.md",
+    "Резюме.md",
+    "Temp (File).md",
     "Идеи",
     "Untitled.canvas"
   ]
