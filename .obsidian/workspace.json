@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7a6a4102966a7740",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Резюме2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -73,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Junior",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,8 +102,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -173,10 +184,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2f91e3a94919476b",
+  "active": "7a6a4102966a7740",
   "lastOpenFiles": [
-    "Резюме.md",
+    "Еуые.md",
     "Резюме2.md",
+    "Резюме.md",
     "Идеи/План развития.md",
     "Temp (File).md",
     "Идеи",
