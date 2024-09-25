@@ -12,17 +12,16 @@ filter "system:linux"
 		"Xrandr",     -- X Resize and Rotate
 		"Xi",         -- X Input extension
 		"dl",         -- Dynamic linking library
-		"GLUT",       -- OpenGL Utility Toolkit
-		"freeglut"    -- Замена GLUT
+		"glut",       -- OpenGL Utility Toolkit
 	}
 ```
 
-Установка FreeGLUT:
+Установка GLUT:
 ```bash
-sudo apt-get install freeglut3-dev
+sudo apt-get install freeglut3 freeglut3-dev
 ```
 
 ```bash
-ls /usr/lib | grep glut
+ls /usr/lib/x86_64-linux-gnu | grep glut
 ```
 
