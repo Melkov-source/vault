@@ -1,11 +1,11 @@
 [Статья по установки]((https://dev.to/iamsahebgiri/how-to-install-opengl-in-ubuntu-in-c-6eb)
 
 **Install:**
-```
+```bash
 $ sudo apt-get update
 ```
 
-```
+```bash
 $ sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
 ```
 
