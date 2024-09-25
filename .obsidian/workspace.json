@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "574d8bb8b3698924",
+        "id": "84cfc63e477dcdc9",
         "type": "tabs",
         "children": [
           {
-            "id": "987a263230a811f8",
+            "id": "35474fb85ab3122d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Резюме (Пробник) (2024 Sep 22).md",
+                "file": "C++/OpenGL/Install on Ubuntu.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Резюме (Пробник) (2024 Sep 22).md",
+                "file": "C++/OpenGL/Install on Ubuntu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Резюме (Пробник) (2024 Sep 22).md",
+                "file": "C++/OpenGL/Install on Ubuntu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Резюме (Пробник) (2024 Sep 22).md"
+                "file": "C++/OpenGL/Install on Ubuntu.md"
               }
             }
           }
@@ -147,12 +147,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "987a263230a811f8",
+  "active": "35474fb85ab3122d",
   "lastOpenFiles": [
-    "Content/photo.jpeg",
-    "Content",
+    "Статья по установки.md",
+    "C++/OpenGL/Install on Ubuntu.md",
+    "C++.md",
+    "C++",
+    "C++/OpenGL",
+    "Работа/Резюме (Пробник) (2024 Sep 22).md",
+    "Работа/Content/photo.jpeg",
+    "Работа",
+    "Работа/Content",
     "Идеи/План развития.md",
-    "Резюме (Пробник) (2024 Sep 22).md",
     "Резюме.md",
     "Еуые.md",
     "Temp (File).md",
