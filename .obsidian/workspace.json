@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/OpenGL/Premake (Linux).md",
+                "file": "Резюме (Пробник) (2024 Sep 22).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/OpenGL/Premake (Linux).md",
+                "file": "Резюме (Пробник) (2024 Sep 22).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/OpenGL/Premake (Linux).md",
+                "file": "Резюме (Пробник) (2024 Sep 22).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/OpenGL/Premake (Linux).md"
+                "file": "Резюме (Пробник) (2024 Sep 22).md"
               }
             }
           }
@@ -143,19 +143,20 @@
       "canvas:Создать новый холст": false,
       "daily-notes:Сегодняшняя заметка": false,
       "templates:Вставить шаблон": false,
-      "command-palette:Открыть палитру команд": false
+      "command-palette:Открыть палитру команд": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "35474fb85ab3122d",
+  "active": "93c38509cbc4f9cd",
   "lastOpenFiles": [
-    "C++/OpenGL/Install on Ubuntu.md",
     "C++/OpenGL/Premake (Linux).md",
+    "C++/OpenGL/Install on Ubuntu.md",
     "C++/OpenGL/Tutorials.md",
     "Статья по установки.md",
     "C++.md",
     "C++",
     "C++/OpenGL",
-    "Работа/Резюме (Пробник) (2024 Sep 22).md",
+    "Резюме (Пробник) (2024 Sep 22).md",
     "Работа/Content/photo.jpeg",
     "Работа",
     "Работа/Content",
