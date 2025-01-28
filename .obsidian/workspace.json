@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "84cfc63e477dcdc9",
+        "id": "afc9866cdecb17c7",
         "type": "tabs",
         "children": [
           {
-            "id": "35474fb85ab3122d",
+            "id": "ae009425b5dfeca2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "work/Резюме (Пробник) (2024 Sep 22).md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Резюме (Пробник) (2024 Sep 22)"
+              "title": "New tab"
             }
           }
         ]
@@ -93,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/Резюме (Пробник) (2024 Sep 22).md",
+                "file": "books/Moskva_2042 pdf.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Резюме (Пробник) (2024 Sep 22)"
+              "title": "Backlinks for Moskva_2042 pdf"
             }
           },
           {
@@ -112,12 +108,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work/Резюме (Пробник) (2024 Sep 22).md",
+                "file": "books/Moskva_2042 pdf.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Резюме (Пробник) (2024 Sep 22)"
+              "title": "Outgoing links from Moskva_2042 pdf"
             }
           },
           {
@@ -139,10 +135,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/Резюме (Пробник) (2024 Sep 22).md"
+                "file": "books/Moskva_2042 pdf.pdf"
               },
               "icon": "lucide-list",
-              "title": "Outline of Резюме (Пробник) (2024 Sep 22)"
+              "title": "Outline of Moskva_2042 pdf"
             }
           }
         ]
@@ -165,6 +161,10 @@
   },
   "active": "93c38509cbc4f9cd",
   "lastOpenFiles": [
+    "work/Резюме (Пробник) (2024 Sep 22).md",
+    "books/Moskva_2042 pdf.pdf",
+    "books",
+    "Новая папка",
     "work",
     "C++/OpenGL/Premake (Linux).md",
     "C++/OpenGL/Install on Ubuntu.md",
@@ -173,7 +173,6 @@
     "C++.md",
     "C++",
     "C++/OpenGL",
-    "work/Резюме (Пробник) (2024 Sep 22).md",
     "Работа/Content/photo.jpeg",
     "Работа",
     "Работа/Content",
