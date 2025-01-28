@@ -11,10 +11,14 @@
             "id": "ae009425b5dfeca2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Untitled"
             }
           }
         ]
@@ -89,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/Moskva_2042 pdf.pdf",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Moskva_2042 pdf"
+              "title": "Backlinks for Untitled"
             }
           },
           {
@@ -108,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/Moskva_2042 pdf.pdf",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Moskva_2042 pdf"
+              "title": "Outgoing links from Untitled"
             }
           },
           {
@@ -135,18 +139,28 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/Moskva_2042 pdf.pdf"
+                "file": "Untitled.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Moskva_2042 pdf"
+              "title": "Outline of Untitled"
+            }
+          },
+          {
+            "id": "fcbbb8ce98e56b00",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,10 +173,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "93c38509cbc4f9cd",
+  "active": "ae009425b5dfeca2",
   "lastOpenFiles": [
-    "work/Резюме (Пробник) (2024 Sep 22).md",
     "books/Moskva_2042 pdf.pdf",
+    "Untitled.md",
+    "work/Резюме (Пробник) (2024 Sep 22).md",
     "books",
     "Новая папка",
     "work",
