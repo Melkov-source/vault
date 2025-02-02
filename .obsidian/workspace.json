@@ -11,14 +11,12 @@
             "id": "ae009425b5dfeca2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
+                "file": "books/Moskva_2042 pdf.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Untitled"
+              "icon": "lucide-file-text",
+              "title": "Moskva_2042 pdf"
             }
           }
         ]
@@ -175,8 +173,8 @@
   },
   "active": "ae009425b5dfeca2",
   "lastOpenFiles": [
-    "books/Moskva_2042 pdf.pdf",
     "Untitled.md",
+    "books/Moskva_2042 pdf.pdf",
     "work/Резюме (Пробник) (2024 Sep 22).md",
     "books",
     "Новая папка",
