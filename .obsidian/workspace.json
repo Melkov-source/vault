@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/Резюме (Пробник) (2024 Sep 22).md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Резюме (Пробник) (2024 Sep 22)"
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "88e83d0f6d279ee9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Список книг.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Список книг"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,11 +188,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ae009425b5dfeca2",
+  "active": "88e83d0f6d279ee9",
   "lastOpenFiles": [
-    "books/Moskva_2042 pdf.pdf",
     "Untitled.md",
+    "Список книг.md",
     "work/Резюме (Пробник) (2024 Sep 22).md",
+    "books/Moskva_2042 pdf.pdf",
     "books",
     "Новая папка",
     "work",
