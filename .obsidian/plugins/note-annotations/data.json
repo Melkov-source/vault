@@ -1,10 +1,11 @@
 {
-  "expandSelection": true,
+  "expandSelection": false,
   "colors": [
     "lightpink",
     "palegreen",
     "paleturquoise",
     "violet",
-    "LightBlue"
+    "lightblue",
+    "darkkhaki"
   ]
 }
