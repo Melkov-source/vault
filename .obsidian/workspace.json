@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Проекты/Гость/Синеводье.md",
+                "file": "Проекты/Гость/Господари.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Синеводье"
+              "title": "Господари"
             }
           }
         ],
@@ -208,6 +208,7 @@
   "lastOpenFiles": [
     "Проекты/Гость/Наброски.md",
     "Проекты/Гость/Синеводье.md",
+    "Проекты/Гость/Untitled.md",
     "Проекты/Гость/Pasted image 20250211063706.png",
     "Проекты/Гость/(Черновик) Глава 1. Голос океана.md",
     "Проекты/Гость/Господари.md",
@@ -243,7 +244,6 @@
     "Новая папка",
     "work",
     "C++/OpenGL/Premake (Linux).md",
-    "C++/OpenGL/Install on Ubuntu.md",
     "Работа/Content/photo.jpeg",
     "Untitled.canvas"
   ]
