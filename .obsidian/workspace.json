@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Книги/Список книг.md",
+                "file": "Книги/Список.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Список книг"
+              "title": "Список"
             }
           }
         ],
@@ -234,8 +234,10 @@
   },
   "active": "5638147def84848e",
   "lastOpenFiles": [
-    "Книги/Moskva_2042 pdf.pdf",
     "Книги/Список книг.md",
+    "Книги/Список.md",
+    "Книги/Антиутопии.md",
+    "Книги/Moskva_2042 pdf.pdf",
     "HH/Резюме (Пробник) (2025 Apr 16).md",
     "Storytelling/Диалоги.md",
     "Storytelling/Заметки.md",
@@ -263,7 +265,6 @@
     "Storytelling/Гость/(Черновик) Глава 1. Голос океана.md",
     "Tutorials/Introduction to Cocos Creator.md",
     "Tutorials",
-    "График.md",
     "Storytelling",
     "Писательсм",
     "Storytelling/Гость",
