@@ -66,9 +66,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2163267fee63d7a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tech/Cloudflare Cache.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tech/CDN (Content Delivery Network).md",
+                "file": "Tech/Cloudflare Cache.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tech/CDN (Content Delivery Network).md",
+                "file": "Tech/Cloudflare Cache.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tech/CDN (Content Delivery Network).md"
+                "file": "Tech/Cloudflare Cache.md"
               }
             }
           },
@@ -205,12 +217,13 @@
       "note-annotations:Enable highlighting mode": false
     }
   },
-  "active": "1cb1f1342e0239c4",
+  "active": "2163267fee63d7a0",
   "lastOpenFiles": [
+    "Tech/CDN (Content Delivery Network).md",
+    "Tech/Cloudflare Cache.md",
     "Self",
     "Tech",
     "Self/Книги/Список.md",
-    "Tech/CDN (Content Delivery Network).md",
     "Self/Книги/Список книг.md",
     "Self/Книги/Антиутопии.md",
     "Self/Книги/Moskva_2042 pdf.pdf",
@@ -244,7 +257,6 @@
     "Self/Storytelling/Гость",
     "Проекты",
     "Истории",
-    "Self/Storytelling/images",
     "Работа/Content/photo.jpeg",
     "Untitled.canvas"
   ]
