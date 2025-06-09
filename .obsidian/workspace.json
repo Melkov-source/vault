@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tech/Cache.md",
+                "file": "Tech/CDN (Content Delivery Network).md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tech/Cache.md",
+                "file": "Tech/CDN (Content Delivery Network).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tech/Cache.md",
+                "file": "Tech/CDN (Content Delivery Network).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tech/Cache.md"
+                "file": "Tech/CDN (Content Delivery Network).md"
               }
             }
           },
@@ -219,8 +219,8 @@
   },
   "active": "2163267fee63d7a0",
   "lastOpenFiles": [
-    "Tech/CDN (Content Delivery Network).md",
     "Tech/Cache.md",
+    "Tech/CDN (Content Delivery Network).md",
     "Self",
     "Tech",
     "Self/Книги/Список.md",
