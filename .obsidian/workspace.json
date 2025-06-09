@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Storytelling/Наброски идей.md",
+                "file": "Self/Storytelling/Наброски идей.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,14 +49,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Книги/Список.md",
+                "file": "Self/Книги/Список.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1cb1f1342e0239c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tech/CDN (Content Delivery Network).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Книги/Список.md",
+                "file": "Tech/CDN (Content Delivery Network).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Книги/Список.md",
+                "file": "Tech/CDN (Content Delivery Network).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Книги/Список.md"
+                "file": "Tech/CDN (Content Delivery Network).md"
               }
             }
           },
@@ -179,7 +191,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 462.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,49 +200,51 @@
       "canvas:Создать новый холст": false,
       "daily-notes:Сегодняшняя заметка": false,
       "templates:Вставить шаблон": false,
-      "command-palette:Открыть палитру команд": false
+      "command-palette:Открыть палитру команд": false,
+      "obsidian-git:Open Git source control": false,
+      "note-annotations:Enable highlighting mode": false
     }
   },
-  "active": "5638147def84848e",
+  "active": "fcbbb8ce98e56b00",
   "lastOpenFiles": [
-    "Книги/Список книг.md",
-    "Книги/Список.md",
-    "Книги/Антиутопии.md",
-    "Книги/Moskva_2042 pdf.pdf",
+    "Self",
+    "Tech",
+    "Self/Книги/Список.md",
+    "Tech/CDN (Content Delivery Network).md",
+    "Self/Книги/Список книг.md",
+    "Self/Книги/Антиутопии.md",
+    "Self/Книги/Moskva_2042 pdf.pdf",
     "HH/Резюме (Пробник) (2025 Apr 16).md",
-    "Storytelling/Диалоги.md",
-    "Storytelling/Заметки.md",
-    "Storytelling/Представление.md",
-    "Storytelling/Наброски идей.md",
-    "Storytelling/Гость/Структура глав (10).md",
-    "Storytelling/Гость/Структура глав (6).md",
-    "Storytelling/Гость/Синеводье.md",
-    "Storytelling/Гость/Переработка структуры глав (6).md",
-    "Storytelling/Гость/Океанос.md",
-    "Storytelling/Гость/Господари.md",
-    "Бокс/Мысли.md",
-    "Storytelling/Книга (черновик).md",
-    "Бокс",
-    "Storytelling/Сервисы.md",
-    "Storytelling/images/Pasted image 20250205035457.png",
-    "Storytelling/Гость/Pasted image 20250211063706.png",
-    "Storytelling/Гость/Язык.md",
-    "Storytelling/Гость/Часть первая.md",
-    "Storytelling/Гость/Причина поведения рыбки.md",
-    "Storytelling/Гость/Общие лор проекта.md",
-    "Storytelling/Гость/Наброски.md",
-    "Storytelling/Гость/День до.md",
-    "Storytelling/Гость/Голос океана v1.md",
-    "Storytelling/Гость/(Черновик) Глава 1. Голос океана.md",
-    "Tutorials/Introduction to Cocos Creator.md",
+    "Self/Storytelling/Диалоги.md",
+    "Self/Storytelling/Заметки.md",
+    "Self/Storytelling/Представление.md",
+    "Self/Storytelling/Наброски идей.md",
+    "Self/Storytelling/Гость/Структура глав (10).md",
+    "Self/Storytelling/Гость/Структура глав (6).md",
+    "Self/Storytelling/Гость/Синеводье.md",
+    "Self/Storytelling/Гость/Переработка структуры глав (6).md",
+    "Self/Storytelling/Гость/Океанос.md",
+    "Self/Storytelling/Гость/Господари.md",
+    "Self/Бокс/Мысли.md",
+    "Self/Storytelling/Книга (черновик).md",
+    "Self/Бокс",
+    "Self/Storytelling/Сервисы.md",
+    "Self/Storytelling/images/Pasted image 20250205035457.png",
+    "Self/Storytelling/Гость/Pasted image 20250211063706.png",
+    "Self/Storytelling/Гость/Язык.md",
+    "Self/Storytelling/Гость/Часть первая.md",
+    "Self/Storytelling/Гость/Причина поведения рыбки.md",
+    "Self/Storytelling/Гость/Общие лор проекта.md",
+    "Self/Storytelling/Гость/Наброски.md",
+    "Self/Storytelling/Гость/День до.md",
+    "Self/Storytelling/Гость/Голос океана v1.md",
     "Tutorials",
-    "Storytelling",
+    "Self/Storytelling",
     "Писательсм",
-    "Storytelling/Гость",
+    "Self/Storytelling/Гость",
     "Проекты",
     "Истории",
-    "Storytelling/images",
-    "Писательское мастерство",
+    "Self/Storytelling/images",
     "Работа/Content/photo.jpeg",
     "Untitled.canvas"
   ]
