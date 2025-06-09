@@ -10,7 +10,7 @@
 
 | Название            | Описание                                                           |
 | ------------------- | ------------------------------------------------------------------ |
-| Cloudflare          | бесплатный план, edge functions (Workers), отличная защита.        |
+| Cloudflare / Bunny  | бесплатный план, edge functions (Workers), отличная защита.        |
 | Fastly              | высокая производительность, сложная конфигурация, edge-компьютинг. |
 | Akamai              | дорогой, но один из лидеров по скорости и масштабам.               |
 | Amazon CloudFront   | интеграция с AWS, высокая надёжность.                              |
@@ -25,6 +25,12 @@
 | Bunny.net        | дешёвый, но мощный CDN с edge storage.                      |
 | jsDelivr / UNPKG |  для npm-пакетов                                            |
 
-
-
+1. Настроить кеширование с долгим TTL?
+2. Preloading/Prefetching для файлов в сборке?
+3. Использование service workers для оффлайн-доступа?
+4. Работа с MIME-типами?
+5. HTTP Caching (ETag, Cache-Control, CDN invalidation)
+6. Edge computing (можно изменять запросы/ответы на границе)
+7. hot reload на CDN
+8. CDN invalidation / purge (принудительное обновление кеша)
 
