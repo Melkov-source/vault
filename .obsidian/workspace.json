@@ -191,7 +191,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 462.5
+    "width": 245.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,7 +205,7 @@
       "note-annotations:Enable highlighting mode": false
     }
   },
-  "active": "fcbbb8ce98e56b00",
+  "active": "1cb1f1342e0239c4",
   "lastOpenFiles": [
     "Self",
     "Tech",
