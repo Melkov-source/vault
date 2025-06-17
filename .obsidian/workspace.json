@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tech/CDN (Content Delivery Network).md",
+                "file": "Tech/CDN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CDN (Content Delivery Network)"
+              "title": "CDN"
             }
           },
           {
@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tech/Без названия.md",
+                "file": "Tech/CDN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Без названия"
+              "title": "CDN"
             }
           }
         ],
@@ -232,10 +232,10 @@
       "note-annotations:Enable highlighting mode": false
     }
   },
-  "active": "93c38509cbc4f9cd",
+  "active": "71b41586d0b8ebf4",
   "lastOpenFiles": [
-    "Tech/CDN (Content Delivery Network).md",
     "Tech/Без названия.md",
+    "Tech/CDN.md",
     "Tech/Cache.md",
     "conflict-files-obsidian-git.md",
     "To-day/-.md",
