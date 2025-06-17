@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tech/Cache.md",
+                "file": "HH/Дмитрий Мелков. TiltShift.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cache"
+              "title": "Дмитрий Мелков. TiltShift"
             }
           }
         ],
@@ -87,7 +87,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Файловый менеджер"
             }
           },
           {
@@ -208,21 +208,22 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
       "obsidian-git:Open Git source control": false,
       "note-annotations:Enable highlighting mode": false
     }
   },
-  "active": "e4507ac1d335d229",
+  "active": "93c38509cbc4f9cd",
   "lastOpenFiles": [
+    "Tech/Cache.md",
+    "HH/Дмитрий Мелков. TiltShift.md",
     "Tech/CDN (Content Delivery Network).md",
     "Книги/Список.md",
-    "Tech/Cache.md",
     "Tech",
     "Self/Книги/Список.md",
     "Self/Книги/Список книг.md",
@@ -249,7 +250,6 @@
     "Self/Storytelling/Гость/Наброски.md",
     "Self/Storytelling/Гость/День до.md",
     "Self/Storytelling/Гость/Господари.md",
-    "Self/Storytelling/Гость/Голос океана v1.md",
     "Self/Storytelling/Гость/Pasted image 20250211063706.png",
     "Self/Storytelling/Гость",
     "Self/Storytelling/images/Pasted image 20250205035457.png",
