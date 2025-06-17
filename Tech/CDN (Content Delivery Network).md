@@ -6,8 +6,6 @@
    
 Доставка происходит с минимальной задержкой, за счёт кэширования и маршрутизации запросов к ближайшему узлу.
 
-Универсальные CDN:
-
 | Название            | Описание                                                           |
 | ------------------- | ------------------------------------------------------------------ |
 | Cloudflare          | бесплатный план, edge functions (Workers), отличная защита.        |
@@ -16,30 +14,23 @@
 | Amazon CloudFront   | интеграция с AWS, высокая надёжность.                              |
 | Google Cloud CDN    | хорош для гугловской экосистемы.                                   |
 | Microsoft Azure CDN | для проектов в Azure.                                              |
-
- Dev-ориентированные платформы:
-
-| Название         | Описание                                                    |
-| ---------------- | ----------------------------------------------------------- |
-| Vercel           | автодеплой, CDN встроен, edge functions, хорош для SSR/ISR. |
-| Netlify          | аналогично, для Jamstack-подходов.                          |
-| Bunny.net        | дешёвый, но мощный CDN с edge storage.                      |
-| jsDelivr / UNPKG |  для npm-пакетов                                            |
+| Vercel              | автодеплой, CDN встроен, edge functions, хорош для SSR/ISR.        |
+| Netlify             | аналогично, для Jamstack-подходов.                                 |
+| Bunny.net           | дешёвый, но мощный CDN с edge storage.                             |
+| jsDelivr / UNPKG    | для npm-пакетов                                                    |
 
 1. Настроить кеширование с долгим TTL
-   TTL (Time To Live) определяет, как долго объект будет храниться в кэше CDN. Его можно настроить:
-	- **На уровне HTTP-заголовков:** через `Cache-Control: max-age=31536000` (1 год), `immutable` и т.д.
-	- **В панели управления CDN:** у большинства CDN есть возможность явно задать TTL.
-    - **CDN-платформы вроде Cloudflare и Fastly** позволяют настраивать TTL через правила маршрутизации и политики кэширования.
-    - Подходит для **статических файлов** — JS, CSS, шрифты, изображения и т.д.
+   TTL (Time To Live) определяет, как долго объект будет храниться в кэше CDN. 
+   Его можно настроить:
+	- На уровне HTTP-заголовков: через `Cache-Control: max-age=31536000` (1 год), `immutable` и т.д.
+	- В панели управления CDN: у большинства CDN есть возможность явно задать TTL.
+    - CDN-платформы вроде Cloudflare и Fastly позволяют настраивать TTL через правила маршрутизации и политики кэширования.
 
-2. Preloading/Prefetching для файлов в сборке?
-3. Использование service workers для оффлайн-доступа?
-4. Работа с MIME-типами?
-5. HTTP Caching (ETag, Cache-Control, CDN invalidation)
-6. Edge computing (можно изменять запросы/ответы на границе)
-7. hot reload на CDN
-8. CDN invalidation / purge (принудительное обновление кеша)
-9. Cloudflare Workers?
-10. Vercel Edge?
-11. SSR (Edge SSR)?
+2. Работа с MIME-типами
+3. HTTP Caching (ETag, Cache-Control, CDN invalidation)
+4. Edge computing (можно изменять запросы/ответы на границе)
+5. hot reload на CDN
+6. CDN invalidation / purge (принудительное обновление кеша)
+7. Cloudflare Workers?
+8. Vercel Edge?
+9. SSR (Edge SSR)?
