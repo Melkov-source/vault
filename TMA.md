@@ -10,10 +10,8 @@
 - Сейвы используются от платформы (ограничение 5мб, по идеи должно хватить на прохождение всех уровней)
 
 **Yandex.Games** (DEV)
-**Link**: НУЖНО ЗАЙТИ НА АККАУНТ
+**Link**: 
 Билд собрали, но не залили, нет доступа к яндекс почте: tiltshift-games@tiltshift.xyz
 
 **PlayDeck** (Dev)
-**Link**: https://t.me/playdeckbot/game?startapp=eyJnYW1lIjp7ImtleSI6IjhhY0w3VG9pVncifSwibGFiZWxzIjpbImRldiJdfQ== 
-Билд собрали, залили, однако протестировать его сейчас не получается, необходимо зайти в админ панель.
-- Нужно обновить ссылку на ориджин сервер: https://playdeck.cryptogram.tiltshift.xyz/game 
+**Link**: https://t.me/playdeckbot/game?startapp=eyJnYW1lIjp7ImtleSI6IjhhY0w3VG9pVncifSwibGFiZWxzIjpbImRldiJdfQ==
