@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "CDN"
             }
+          },
+          {
+            "id": "346d7b07e6470129",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ИП/Трудовой договор.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Трудовой договор"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -194,6 +208,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -204,9 +219,12 @@
       "note-annotations:Enable highlighting mode": false
     }
   },
-  "active": "00c2b46804cda09b",
+  "active": "346d7b07e6470129",
   "lastOpenFiles": [
-    "ИП. Доходы - Расходы. Управление.md",
+    "ИП/T1.md",
+    "ИП/Трудовой договор.md",
+    "ИП/ИП. Доходы - Расходы. Управление.md",
+    "ИП",
     "TMA.md",
     "Pasted image 20250909140621.png",
     "Tech/Cache.md",
@@ -236,14 +254,12 @@
     "Self/Storytelling/Гость/Структура глав (10).md",
     "Self/Storytelling/Гость/Синеводье.md",
     "Self/Storytelling/Гость/Причина поведения рыбки.md",
-    "Self/Storytelling/Гость/Переработка структуры глав (6).md",
     "Self/Storytelling/Гость/Pasted image 20250211063706.png",
     "Self/Storytelling/Гость",
     "Self/Storytelling/images/Pasted image 20250205035457.png",
     "Self/Storytelling/images",
     "Self/Storytelling",
     "Self",
-    "Книги/Moskva_2042 pdf.pdf",
     "Storytelling/images/Pasted image 20250205035457.png",
     "Storytelling/Гость/Pasted image 20250211063706.png",
     "Работа/Content/photo.jpeg",
