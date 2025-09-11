@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "TMA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "TMA"
             }
           }
         ],
@@ -261,10 +261,10 @@
       "note-annotations:Enable highlighting mode": false
     }
   },
-  "active": "363a1190ae16e510",
+  "active": "93c38509cbc4f9cd",
   "lastOpenFiles": [
-    "TMA.md",
     "conflict-files-obsidian-git.md",
+    "TMA.md",
     "WebGL Build Identifier.md",
     "ИП. Доходы - Расходы. Управление.md",
     "Pasted image 20250909140621.png",
