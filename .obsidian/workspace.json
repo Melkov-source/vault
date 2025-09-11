@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TMA.md",
+                "file": "Tech/CDN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TMA"
+              "title": "CDN"
             }
           }
         ],
@@ -207,8 +207,8 @@
   "active": "00c2b46804cda09b",
   "lastOpenFiles": [
     "ИП. Доходы - Расходы. Управление.md",
-    "Pasted image 20250909140621.png",
     "TMA.md",
+    "Pasted image 20250909140621.png",
     "Tech/Cache.md",
     "Tech/CDN.md",
     "HH/Дмитрий Мелков. TiltShift.md",
