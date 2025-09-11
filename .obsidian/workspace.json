@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TMA.md",
+                "file": "WebGL Build Identifier.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TMA"
+              "title": "WebGL Build Identifier"
             }
           }
         ],
@@ -261,10 +261,10 @@
       "note-annotations:Enable highlighting mode": false
     }
   },
-  "active": "93c38509cbc4f9cd",
+  "active": "363a1190ae16e510",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "TMA.md",
+    "conflict-files-obsidian-git.md",
     "WebGL Build Identifier.md",
     "ИП. Доходы - Расходы. Управление.md",
     "Pasted image 20250909140621.png",
