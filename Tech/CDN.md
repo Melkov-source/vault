@@ -78,12 +78,15 @@
 	6. **Firewall Rules**
 	   Настройка правил на уровне CDN позволяет блокировать нежелательные страны, IP-диапазоны или определённые user-agent'ы, что усиливает безопасность проекта.
 
-### Caching
-
+## Caching
+#### SSL/TLS
+- **TLS 1.3:** Enable
+- **Opportunistic Encryption:** Enable
+- **Encryption mode:** Full
 #### Configuration
 - **Caching Level**: Standard
-- Browser Cache TTL: 
-
+- **Browser Cache TTL**: Respect Existing Headers
+- **Development Mode:** Disable
 #### Cache Rules
 **No Cache for index.html**
 - **Custom filter expression**
