@@ -83,29 +83,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WebGL Build Identifier.md",
+                "file": "Tech/CDN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WebGL Build Identifier"
-            }
-          },
-          {
-            "id": "363a1190ae16e510",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "Без названия 2.base",
-                "viewName": "Таблица"
-              },
-              "icon": "lucide-table",
-              "title": "Без названия 2"
+              "title": "CDN"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -155,11 +142,10 @@
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "Закладки"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -262,19 +248,23 @@
       "note-annotations:Enable highlighting mode": false
     }
   },
-  "active": "363a1190ae16e510",
+  "active": "e9830455346e2315",
   "lastOpenFiles": [
-    "Без названия 1.base",
-    "Без названия 2.base",
-    "Без названия.base",
-    "Tech/CDN.md",
     "WebGL Build Identifier.md",
+    "TMA.md",
+    "Pasted image 20250911165629.png",
+    "2025-09-12.md",
+    "Без названия.base",
+    "Untitled.md",
+    "Без названия 1.base",
+    "Без названия 3.base",
+    "Без названия 2.base",
+    "Self/Книги/Антиутопии.md",
+    "Tech/CDN.md",
     "ИП/ИП. Доходы - Расходы. Управление.md",
     "ИП/Трудовой договор.md",
     "ИП/T1.md",
     "ИП",
-    "Pasted image 20250911165629.png",
-    "TMA.md",
     "conflict-files-obsidian-git.md",
     "ИП. Доходы - Расходы. Управление.md",
     "Pasted image 20250909140621.png",
@@ -287,7 +277,6 @@
     "Tech",
     "Self/Книги/Список.md",
     "Self/Книги/Список книг.md",
-    "Self/Книги/Антиутопии.md",
     "Self/Книги/Moskva_2042 pdf.pdf",
     "Self/Книги",
     "Self/Бокс/Мысли.md",
@@ -298,12 +287,8 @@
     "Self/Storytelling/Книга (черновик).md",
     "Self/Storytelling/Заметки.md",
     "Self/Storytelling/Диалоги.md",
-    "Self/Storytelling/Гость/Язык.md",
-    "Self/Storytelling/Гость/Часть первая.md",
     "Self/Storytelling/Гость/Pasted image 20250211063706.png",
-    "Self/Storytelling/Гость",
     "Self/Storytelling/images/Pasted image 20250205035457.png",
-    "Self/Storytelling/images",
     "Storytelling/images/Pasted image 20250205035457.png",
     "Storytelling/Гость/Pasted image 20250211063706.png",
     "Работа/Content/photo.jpeg",

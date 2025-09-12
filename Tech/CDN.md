@@ -84,6 +84,15 @@ WebGL Build Cache
 Cache .br compressed files
 
 Origin Cache Everything
+- All incoming requests
+- Cache eligibility: Eligible for cache
+- Edge TTL: Use cache-control header if present, cache request with Cloudflare's default TTL for the response status if not
+- Browser TTL: Respect origin TTL
+- Serve stale content while revalidating
+	- Do not serve stale content while updating: Disable
+- Respect strong ETags
+	- Use strong ETag headers: Enable
+- Place At: Custom,
 
 **No Cache for index.html**
 - **Custom filter expression**
