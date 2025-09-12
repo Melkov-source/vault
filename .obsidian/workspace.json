@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tech/CDN.md",
+                "file": "Tech/CDN. CloudFlare. Caching settings.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CDN"
+              "title": "CDN. CloudFlare. Caching settings"
             }
           }
         ],
@@ -250,6 +250,8 @@
   },
   "active": "e9830455346e2315",
   "lastOpenFiles": [
+    "Tech/CDN.md",
+    "Tech/CDN. CloudFlare. Caching settings.md",
     "WebGL Build Identifier.md",
     "TMA.md",
     "Pasted image 20250911165629.png",
@@ -260,7 +262,6 @@
     "Без названия 3.base",
     "Без названия 2.base",
     "Self/Книги/Антиутопии.md",
-    "Tech/CDN.md",
     "ИП/ИП. Доходы - Расходы. Управление.md",
     "ИП/Трудовой договор.md",
     "ИП/T1.md",
@@ -268,7 +269,6 @@
     "conflict-files-obsidian-git.md",
     "ИП. Доходы - Расходы. Управление.md",
     "Pasted image 20250909140621.png",
-    "Tech/Без названия.md",
     "Tech/Cache.md",
     "To-day/-.md",
     "To-day",
