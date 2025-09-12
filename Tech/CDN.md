@@ -80,25 +80,40 @@
 
 ### Cache Rules
 WebGL Build Cache
+- Custom filter expression
+```js
+(http.host eq "webgl.justmoby.com")
+```
 
-Cache .br compressed files
 
-Origin Cache Everything
-- All incoming requests
-- Cache eligibility: Eligible for cache
-- Edge TTL: Use cache-control header if present, cache request with Cloudflare's default TTL for the response status if not
-- Browser TTL: Respect origin TTL
-- Serve stale content while revalidating
+==**Cache .br compressed files**==<!-- @paleturquoise-->
+- **Custom filter expression**
+```js
+(http.host eq "webgl.justmoby.com" and ends_with(http.request.uri.path, ".br"))
+```
+- **Cache eligibility:** Eligible for cache
+- **Edge TTL:** Use cache-control header if present, cache request with Cloudflare's default TTL for the response status if not
+-  **Serve stale content while revalidating**
 	- Do not serve stale content while updating: Disable
-- Respect strong ETags
+- **Respect strong ETags**
 	- Use strong ETag headers: Enable
-- Place At: Custom,
+- **Place At:** 3
 
-**No Cache for index.html**
+==**Origin Cache Everything**==<!-- @paleturquoise-->
+- **All incoming requests**
+- **Cache eligibility:** Eligible for cache
+- **Edge TTL:** Use cache-control header if present, cache request with Cloudflare's default TTL for the response status if not
+- **Browser TTL:** Respect origin TTL
+- **Serve stale content while revalidating**
+	- Do not serve stale content while updating: Disable
+- **Respect strong ETags**
+	- Use strong ETag headers: Enable
+- **Place At:** 2
+
+==**No Cache for index.html**==<!-- @paleturquoise-->
 - **Custom filter expression**
 ```js
 (http.host eq "webgl.justmoby.com" and http.request.uri.path eq "/") or (http.request.uri.path eq "/index.html")
 ```
 - **Cache eligibility:** Bypass cache
-- **Browser TTL:** No
-- **Place at:** First
+- **Place at:** 1
