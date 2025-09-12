@@ -15,11 +15,49 @@
 		- Мы использовали worker от CF, потому что нам потребовалось указать дополнительные настройки кеширования на эджах.
 
 ## Worker
+Это некоторое приложение, которое выполняется непосредственно на строное каждого эджа. Её задача в выполнении какой-то дополнительной работы для оптимизации кэшировании и настройки дополнительных правил отдачи контента конечному пользователю.
 - Domains & Routes
 	- HOST worker (Это адрес до самого worker, обычно выставляется автоматически)
 	- Route на CNAME который создавали: webgl.appenvisions.com/*
 	- Preview URLs: *-HOST
+- Нужно написать логику для работы worker (то что он будет делать)
+```js
+export default {
 
+  async fetch(request) {
+      const url = new URL(request.url);
+      const path = url.pathname;
+      const originURL = `https://origin.playdeck.cryptogram.appenvisions.com${path}`;
+
+      const response = await fetch(originURL, {
+          headers: {
+              'Origin': 'https://webgl.appenvisions.com'
+          }
+      });
+
+      const arrayBuffer = await response.arrayBuffer();
+      const headers = new Headers(response.headers);
+
+      if (path !== '/' && path !== '/index.html') {
+          headers.set('Cache-Control', 'public, max-age=31536000, immutable');
+      }
+
+      const init = {
+          status: response.status,
+          statusText: response.statusText,
+          headers,
+          cf: {
+              cacheEverything: true,
+              cacheTtl: 31536000, // 1 year
+          }
+      };
+
+      return new Response(arrayBuffer, init);
+  }
+}
+```
+В нашем случае мы выполняем следующую логику:
+1. 
 ## Caching
 #### SSL/TLS
 - **TLS 1.3:** Enable
