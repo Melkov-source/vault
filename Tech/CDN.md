@@ -78,6 +78,14 @@
 	6. **Firewall Rules**
 	   Настройка правил на уровне CDN позволяет блокировать нежелательные страны, IP-диапазоны или определённые user-agent'ы, что усиливает безопасность проекта.
 
+## DNS
+- **DNS Setup:** Full
+- **DNSSEC**: Disable
+- **NameServers:** Cloudflare
+	- Если NS записи будут от хостера на котором зарегистрирован домен, то CloudFlare не сможет использовать свою систему проксирования. Поэтому важно перевести все NS записи на те, что предоставляет CF.
+	- Документация: https://developers.cloudflare.com/dns/nameservers/update-nameservers/#your-domain-uses-a-different-registrar 
+- CNAME
+	- Proxy
 ## Caching
 #### SSL/TLS
 - **TLS 1.3:** Enable
