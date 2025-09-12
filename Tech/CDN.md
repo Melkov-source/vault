@@ -16,16 +16,16 @@
 
 ### Настройка Cloudflare
 
-1. Домен и DNS  
+1. **Домен и DNS**  
 	1. Подключение домена к Cloudflare  
 	   Необходимо указать Cloudflare как DNS-провайдера у регистратора, заменив NS-записи. Это нужно для полноценной работы Cloudflare с DNS.
 
-	2. DNS-записи  
+	2. **DNS-записи**  
 	   Нужно создать записи `A` или `CNAME`, указывающие на origin-сервер.  
 	   В нашем случае мы использовали обычный статичный сервер, настроенный через Caddy, в котором предварительно заданы заголовки для различных MIME-типов файлов — для компрессии и кеширования (TTL Browser).
 
-2. Кэширование  
-	1. Cache Rules  
+2. **Кэширование**  
+	1. **Cache Rules**  
 	   Необходимо создать правила, которые определяют, какие ресурсы и как должны кэшироваться на всех точках присутствия. Можно настроить условия срабатывания правил по маршрутам, домену и другим параметрам. Также настраивается определение заголовков кэширования как для браузера, так и для edge.
 
 	   В проекте кэширование настроено таким образом, чтобы все параметры брались с origin-сервера. Он корректно отдает заголовки `Cache-Control`, `ETag`, `Content-Encoding`, `Content-Type`, не мешая Cloudflare использовать их (`Vary`, `Authorization`, `Set-Cookie`). Для edge-серверов настроено отдельное правило.
@@ -34,10 +34,10 @@
 
 	   После настройки можно проверить заголовок `CF-Cache-Status` — у ресурсов, полученных из кэша, значение будет `HIT`. Если указано `MISS` или `Bypass` — это означает, что контент был получен напрямую с origin-сервера.
 
-	2. Page Rules  
+	2. **Page Rules**  
 	   Для корректной работы всех уровней кэширования следует настроить глобальные правила, например, установить Cache Level в значение Cache Everything, чтобы CDN мог обрабатывать любые типы файлов.
 
-3. Компрессия  
+3. **Компрессия**  
    По умолчанию CDN сжимает ресурсы, у которых отсутствуют соответствующие заголовки. Это делается для передачи между точками присутствия.
 
    Далее эти заголовки сохраняются или могут быть изменены через скрипты на edge-серверах. Например, можно создать worker, который перед отдачей ресурса пользователю модифицирует заголовки.
@@ -46,47 +46,65 @@
 
    В нашем проекте компрессия настраивается на этапе отдачи ресурса с origin-сервера через Caddyfile. Таким образом, точки присутствия не сжимают его повторно и передают в том виде, в котором он получен. (В Compression Rules могут быть заданы дополнительные настройки сжатия на этапе передачи пользователю — по умолчанию они отключены.)
 
-4. Проксирование  
+4. **Проксирование**  
    Для корректной передачи ресурсов от edge-серверов к пользователю Cloudflare должен знать, откуда брать ресурсы. Это можно настроить несколькими способами:
-	1. Прокси-сервер  
+	1. **Прокси-сервер**  
 	   Это обычный сервер, например на Node.js, либо глобально настроенный через Nginx или Caddy. Его задача — подготовить ресурс к отдаче по запросу.
 
-	2. Worker  
+	2. **Worker**  
 	   Это скрипт, выполняющийся при каждом запросе пользователя к конечной точке через Anycast (маршрутизация и адресация). В нем можно задать источник ресурсов, например, кастомный прокси-сервер, а также выполнить дополнительную настройку перед отдачей пользователю.
 
 	   Мы использовали worker для перенаправления запросов на наш сервер с Caddy, чтобы избежать настройки контента в worker и проблем с компрессией, возникающих при использовании хранилища R2.
 
 	   От использования worker можно отказаться, указав напрямую в DNS-записях `CNAME` на origin-сервер.
    
-5. Дополнительно
+5. **Дополнительно**
    Возможности сервиса, которые рекомендуется использовать для комфортной работы.
-	1. Режим разработки (Development Mode)
+	1. **Режим разработки (Development Mode)**
 	   Включается в панели Cloudflare и отключает кэширование на 3 часа. Полезно при отладке и внесении изменений в ресурсы на origin-сервере, чтобы сразу видеть результат без задержек из-за кэша.
 	   
-	2. Проверка через curl
+	2. **Проверка через curl**
 	   Для отладки можно использовать `curl -I https://example.com/файл`, чтобы проверить заголовки ответа и увидеть, был ли кэш использован (`CF-Cache-Status: HIT`).
 	   
-	3. Web Analytics от Cloudflare
+	3. **Web Analytics от Cloudflare**
 	   Без установки трекеров, собирает данные о посещениях, источниках трафика, времени загрузки страниц и др. Может быть полезен для оценки производительности CDN и вовлечённости пользователей.
 	   
-	4. Rate Limiting
+	4. **Rate Limiting**
 	   Можно настроить ограничение количества запросов к ресурсу за определённый период. Это помогает защититься от ботов, спамеров и других подозрительных активностей.
 	   
-	5. Image Optimization (Polish и Mirage)
+	5. **Image Optimization (Polish и Mirage)**
 	   Автоматическая оптимизация изображений — удаление метаданных, перекодировка в WebP, адаптивная загрузка в зависимости от скорости соединения. Может значительно сократить размер ресурсов.
 	   
-	6. Firewall Rules
+	6. **Firewall Rules**
 	   Настройка правил на уровне CDN позволяет блокировать нежелательные страны, IP-диапазоны или определённые user-agent'ы, что усиливает безопасность проекта.
 
-### Cache Rules
-WebGL Build Cache
-- Custom filter expression
+### Caching
+
+#### Configuration
+- **Caching Level**: Standard
+- Browser Cache TTL: 
+
+#### Cache Rules
+**No Cache for index.html**
+- **Custom filter expression**
 ```js
-(http.host eq "webgl.justmoby.com")
+(http.host eq "webgl.justmoby.com" and http.request.uri.path eq "/") or (http.request.uri.path eq "/index.html")
 ```
+- **Cache eligibility:** Bypass cache
+- **Place at:** 1
 
+**Origin Cache Everything**
+- **All incoming requests**
+- **Cache eligibility:** Eligible for cache
+- **Edge TTL:** Use cache-control header if present, cache request with Cloudflare's default TTL for the response status if not
+- **Browser TTL:** Respect origin TTL
+- **Serve stale content while revalidating**
+	- Do not serve stale content while updating: Disable
+- **Respect strong ETags**
+	- Use strong ETag headers: Enable
+- **Place At:** 2
 
-==**Cache .br compressed files**==<!-- @paleturquoise-->
+**Cache .br compressed files**
 - **Custom filter expression**
 ```js
 (http.host eq "webgl.justmoby.com" and ends_with(http.request.uri.path, ".br"))
@@ -99,21 +117,15 @@ WebGL Build Cache
 	- Use strong ETag headers: Enable
 - **Place At:** 3
 
-==**Origin Cache Everything**==<!-- @paleturquoise-->
-- **All incoming requests**
+**WebGL Build Cache**
+- **Custom filter expression**
+```js
+(http.host eq "webgl.justmoby.com")
+```
 - **Cache eligibility:** Eligible for cache
 - **Edge TTL:** Use cache-control header if present, cache request with Cloudflare's default TTL for the response status if not
-- **Browser TTL:** Respect origin TTL
 - **Serve stale content while revalidating**
 	- Do not serve stale content while updating: Disable
 - **Respect strong ETags**
 	- Use strong ETag headers: Enable
-- **Place At:** 2
-
-==**No Cache for index.html**==<!-- @paleturquoise-->
-- **Custom filter expression**
-```js
-(http.host eq "webgl.justmoby.com" and http.request.uri.path eq "/") or (http.request.uri.path eq "/index.html")
-```
-- **Cache eligibility:** Bypass cache
-- **Place at:** 1
+- **Place At:** 4
