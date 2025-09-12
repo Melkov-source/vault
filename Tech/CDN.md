@@ -78,4 +78,16 @@
 	6. Firewall Rules
 	   Настройка правил на уровне CDN позволяет блокировать нежелательные страны, IP-диапазоны или определённые user-agent'ы, что усиливает безопасность проекта.
 
-#### Cache Rules
+### Cache Rules
+#### 1. WebGL Build Cache
+- ##### When incoming requests match…
+#### 2. Cache .br compressed files
+- ##### When incoming requests match…
+#### 3. Origin Cache Everything
+- ##### When incoming requests match…
+#### 4.  No Cache for index.html
+- ##### When incoming requests match…
+	- #Hostname #equals #webgl.justmoby.com
+	- #and
+	- #URI_Path #equals #/
+	- 
