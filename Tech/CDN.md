@@ -79,15 +79,19 @@
 	   Настройка правил на уровне CDN позволяет блокировать нежелательные страны, IP-диапазоны или определённые user-agent'ы, что усиливает безопасность проекта.
 
 ### Cache Rules
-#### 1. WebGL Build Cache
-- ##### When incoming requests match…
-#### 2. Cache .br compressed files
-- ##### When incoming requests match…
-#### 3. Origin Cache Everything
-- ##### When incoming requests match…
-#### 4.  No Cache for index.html
-- ##### When incoming requests match…
-	- #Hostname #equals #webgl.justmoby.com
-	- #and
-	- #URI_Path #equals #/
-	- 
+1. WebGL Build Cache
+	1. When incoming requests match…
+2. Cache .br compressed files
+	1. When incoming requests match…
+3. Origin Cache Everything
+	1. When incoming requests match…
+4.  No Cache for index.html
+	1. When incoming requests match…
+		   ```js
+	(http.host eq "webgl.justmoby.com" and http.request.uri.path eq "/") 
+or 
+(http.request.uri.path eq "/index.html")
+```
+- ##### Cache eligibility
+	- Bypass cache
+- #####
