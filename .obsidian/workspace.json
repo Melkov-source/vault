@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tech/CDN. Overview.md",
+                "file": "Tech/CDN. CloudFlare. Caching settings.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CDN. Overview"
+              "title": "CDN. CloudFlare. Caching settings"
             }
           }
         ],
@@ -250,8 +250,8 @@
   },
   "active": "e9830455346e2315",
   "lastOpenFiles": [
-    "Tech/CDN. CloudFlare. Caching settings.md",
     "Tech/CDN. Overview.md",
+    "Tech/CDN. CloudFlare. Caching settings.md",
     "WebGL Build Identifier.md",
     "TMA.md",
     "Pasted image 20250911165629.png",

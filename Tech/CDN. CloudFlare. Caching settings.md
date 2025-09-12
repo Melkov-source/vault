@@ -15,7 +15,10 @@
 		- Мы использовали worker от CF, потому что нам потребовалось указать дополнительные настройки кеширования на эджах.
 
 ## Worker
-
+- Domains & Routes
+	- HOST worker (Это адрес до самого worker, обычно выставляется автоматически)
+	- Route на CNAME который создавали: webgl.appenvisions.com/*
+	- Preview URLs: *-HOST
 
 ## Caching
 #### SSL/TLS
