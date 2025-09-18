@@ -11,16 +11,19 @@
 
 Клиентская часть:
 1. Cocos Creator
-	- Java Script
-	- Type Script
-	- Rollup
-	- Terser
-	- HTML
-	- CSS
-	- Tailwind
-	- WebGL 2.0
+	- Java Script / Type Script
+	- CSS / Tailwind / HTML
 
 2. Unity
 	- C#
-	- WebGL 2
+	- Rollup / Terser
+
+Серверная часть:
+1. Nest.js
+2. Docker
+	- Portainer
+	- Dockerfile
+	- Docker Compose
+	- Dozzle
+	- Caddy
 
