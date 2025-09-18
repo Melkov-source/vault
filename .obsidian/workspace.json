@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Roadmap для веб-разработчика игр. Введение в наш стек и процессы.md",
-                "mode": "source",
+                "file": "Test.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Roadmap для веб-разработчика игр. Введение в наш стек и процессы"
+              "title": "Test"
             }
           }
         ],
@@ -249,8 +249,9 @@
   },
   "active": "e9830455346e2315",
   "lastOpenFiles": [
-    "WebGL Build Identifier.md",
     "Roadmap для веб-разработчика игр. Введение в наш стек и процессы.md",
+    "Test.md",
+    "WebGL Build Identifier.md",
     "Dari/blender.md",
     "TMA.md",
     "2025-09-12.md",
@@ -286,7 +287,6 @@
     "Self/Storytelling/Представление.md",
     "Self/Storytelling/Наброски идей.md",
     "Self/Storytelling/Книга (черновик).md",
-    "Self/Storytelling/Заметки.md",
     "Self/Storytelling/Гость/Pasted image 20250211063706.png",
     "Self/Storytelling/images/Pasted image 20250205035457.png",
     "Storytelling/images/Pasted image 20250205035457.png",
