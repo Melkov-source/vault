@@ -1,14 +1,11 @@
-Общий стек, который используем
-Cocos Creator
-Unity
-WebGL
-JavaScript / TypeScript
-Node.js / Nest.js
-HTML / CSS / Tailwind
-Prisma ORM
-
-
-
-Cocos Creator
-https://docs.cocos.com/creator/3.8/manual/en/
+**Общий стек:**
+1. Cocos Creator
+2. Unity
+3. WebGL
+4. JavaScript / TypeScript
+5. C#
+6. Node.js / Nest.js / Express
+7. HTML / CSS / Tailwind
+8. Prisma ORM
+9. Rollup
 
