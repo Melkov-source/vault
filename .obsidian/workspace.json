@@ -85,9 +85,9 @@
               "state": {
                 "file": "Проект001/Лор.canvas",
                 "viewState": {
-                  "x": 727.072475857077,
-                  "y": -1826.5470007889792,
-                  "zoom": -1.073902074178536
+                  "x": 891.6789926182447,
+                  "y": -1526.7446311081794,
+                  "zoom": 0.5927645924881306
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -222,14 +222,23 @@
               "icon": "lucide-list",
               "title": "Outline of Лор"
             }
+          },
+          {
+            "id": "aae129a13278f364",
+            "type": "leaf",
+            "state": {
+              "type": "deepseek-ai-assistant-itemview",
+              "state": {},
+              "icon": "bot",
+              "title": "Deepseek AI assistant"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 286.5,
-    "collapsed": true
+    "width": 609.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -239,10 +248,13 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false,
+      "note-annotations:Enable highlighting mode": false,
+      "deepseek-ai-assistant:Open deepseek AI assistant": false
     }
   },
-  "active": "e9830455346e2315",
+  "active": "aae129a13278f364",
   "lastOpenFiles": [
     "Проект001/Идеи игры.canvas",
     "Проект001/Лор.canvas",
