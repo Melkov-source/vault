@@ -4,98 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "afc9866cdecb17c7",
+        "id": "efe2f52de4aa94b6",
         "type": "tabs",
         "children": [
           {
-            "id": "ae009425b5dfeca2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Планы по писательскому мастерству.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Планы по писательскому мастерству"
-            }
-          },
-          {
-            "id": "88e83d0f6d279ee9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tutorials/Introduction to Cocos Creator.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Introduction to Cocos Creator"
-            }
-          },
-          {
-            "id": "00c2b46804cda09b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Writing/Представление.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Представление"
-            }
-          },
-          {
-            "id": "e4507ac1d335d229",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tech/CDN.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CDN"
-            }
-          },
-          {
-            "id": "71b41586d0b8ebf4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TMA.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "TMA"
-            }
-          },
-          {
-            "id": "e9830455346e2315",
+            "id": "fd55ea2fdd3dd4b2",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Проект001/Лор.canvas",
+                "file": "Проект01/Лор.canvas",
                 "viewState": {
-                  "x": 891.6789926182447,
-                  "y": -1526.7446311081794,
-                  "zoom": 0.5927645924881306
+                  "x": 885.7228763754295,
+                  "y": -1325.7354457791907,
+                  "zoom": -1.762192302786702
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "Лор"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -214,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Проект001/Лор.canvas",
+                "file": "Проект01/Лор.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -222,23 +151,14 @@
               "icon": "lucide-list",
               "title": "Outline of Лор"
             }
-          },
-          {
-            "id": "aae129a13278f364",
-            "type": "leaf",
-            "state": {
-              "type": "deepseek-ai-assistant-itemview",
-              "state": {},
-              "icon": "bot",
-              "title": "Deepseek AI assistant"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 609.5
+    "width": 609.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -254,15 +174,32 @@
       "deepseek-ai-assistant:Open deepseek AI assistant": false
     }
   },
-  "active": "aae129a13278f364",
+  "active": "fd55ea2fdd3dd4b2",
   "lastOpenFiles": [
+    "Проект01/res/Pasted image 20251122144530.png",
+    "Проект01/Лор.canvas",
+    "Проект01/res/Pasted image 20251122151440.png",
+    "Проект01/res/Pasted image 20251122150852.png",
+    "Проект01/res/Pasted image 20251122150610.png",
+    "Проект01/res/Pasted image 20251122150537.png",
+    "Проект01/res/Pasted image 20251122150214.png",
+    "Проект01/res/Pasted image 20251122150200.png",
+    "Проект01/res/Pasted image 20251122144951.png",
+    "Проект01/res/Pasted image 20251122144723.png",
+    "Проект01/res/Pasted image 20251122143923.png",
+    "Untitled.md",
+    "Проект01/Корпорация X.md",
+    "Проект01/Игра01.canvas",
+    "Проект01/Игра00.canvas",
+    "Проект01/Игра00.md",
+    "Проект01/Антиутопия.md",
+    "Проект01/Игра01",
+    "Untitled",
     "Проект001/Идеи игры.canvas",
-    "Проект001/Лор.canvas",
-    "Проект001/res/Pasted image 20251122120455.png",
-    "Проект001/res",
+    "Проект01/res",
     "Проект001/Untitled.md",
     "Legacy/WebGL Build Identifier.md",
-    "Проект001",
+    "Проект01",
     "Legacy",
     "Legacy/TMA.md",
     "Legacy/Test.md",
@@ -271,9 +208,7 @@
     "Legacy/HH/Дмитрий Мелков. TiltShift.md",
     "Dari/blender.md",
     "2025-09-12.md",
-    "Legacy/ИП/Pasted image 20250911165629.png",
     "Legacy/Tech/CDN. Overview.md",
-    "Untitled.md",
     "conflict-files-obsidian-git.md",
     "Dari",
     "Legacy/Tech/CDN. CloudFlare. Caching settings.md",
@@ -285,22 +220,11 @@
     "Legacy/ИП/ИП. Доходы - Расходы. Управление.md",
     "Legacy/ИП/Трудовой договор.md",
     "Legacy/ИП/T1.md",
-    "Legacy/ИП",
     "ИП. Доходы - Расходы. Управление.md",
-    "Pasted image 20250909140621.png",
     "Tech/Cache.md",
     "To-day/-.md",
-    "To-day",
     "Книги/Список.md",
     "Legacy/Self/Книги/Список.md",
-    "Legacy/Self/Книги/Список книг.md",
-    "Legacy/Self/Бокс/Мысли.md",
-    "Legacy/Self/Storytelling/Сервисы.md",
-    "Legacy/Self/Storytelling/Гость/Pasted image 20250211063706.png",
-    "Legacy/Self/Storytelling/images/Pasted image 20250205035457.png",
-    "Storytelling/images/Pasted image 20250205035457.png",
-    "Storytelling/Гость/Pasted image 20250211063706.png",
-    "Работа/Content/photo.jpeg",
     "Untitled.canvas"
   ]
 }
