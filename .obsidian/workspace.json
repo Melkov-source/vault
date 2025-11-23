@@ -15,9 +15,9 @@
               "state": {
                 "file": "Проект01/Лор.canvas",
                 "viewState": {
-                  "x": 4289.79449878508,
-                  "y": 323.8027254530084,
-                  "zoom": -1
+                  "x": 4947.7937562860925,
+                  "y": 804.6589036129244,
+                  "zoom": -1.0854138492466132
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -81,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1b94c8c4170db154",
@@ -175,12 +174,12 @@
   },
   "active": "fd55ea2fdd3dd4b2",
   "lastOpenFiles": [
-    "Pasted image 20251123213919.png",
-    "Проект01/Игра01.canvas",
-    "Проект01/Игра00.canvas",
-    "Проект01/Лор.canvas",
     "Проект01/Корпорация X.md",
+    "Проект01/Игра00.canvas",
     "Самообучение/Книги.canvas",
+    "Проект01/res/Pasted image 20251123213919.png",
+    "Проект01/Лор.canvas",
+    "Проект01/Игра01.canvas",
     "BGA/Правки.canvas",
     "BGA",
     "Самообучение/res/Pasted image 20251123145407.png",
@@ -192,7 +191,6 @@
     "Самообучение/res/Pasted image 20251123162705.png",
     "Самообучение/res/Pasted image 20251123162643.png",
     "Самообучение/res/Pasted image 20251123162626.png",
-    "Самообучение/res/Pasted image 20251123162411.png",
     "Untitled.md",
     "Самообучение/res",
     "Самообучение",
