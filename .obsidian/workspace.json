@@ -11,17 +11,14 @@
             "id": "fd55ea2fdd3dd4b2",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Проект01/Лор.canvas",
-                "viewState": {
-                  "x": 885.7228763754295,
-                  "y": -1325.7354457791907,
-                  "zoom": -1.762192302786702
-                }
+                "file": "Проект01/Корпорация X.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Лор"
+              "icon": "lucide-file",
+              "title": "Корпорация X"
             }
           }
         ]
@@ -143,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Проект01/Лор.canvas",
+                "file": "Проект01/Корпорация X.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Лор"
+              "title": "Outline of Корпорация X"
             }
           }
         ],
@@ -176,8 +173,13 @@
   },
   "active": "fd55ea2fdd3dd4b2",
   "lastOpenFiles": [
-    "Проект01/res/Pasted image 20251122144530.png",
+    "Проект01/Игра01.canvas",
+    "Проект01/Игра00.canvas",
     "Проект01/Лор.canvas",
+    "Проект01/res/Pasted image 20251122211632.png",
+    "Проект01/Корпорация X.md",
+    "Проект01/res/Pasted image 20251122214333.png",
+    "Проект01/res/Pasted image 20251122144530.png",
     "Проект01/res/Pasted image 20251122151440.png",
     "Проект01/res/Pasted image 20251122150852.png",
     "Проект01/res/Pasted image 20251122150610.png",
@@ -185,12 +187,7 @@
     "Проект01/res/Pasted image 20251122150214.png",
     "Проект01/res/Pasted image 20251122150200.png",
     "Проект01/res/Pasted image 20251122144951.png",
-    "Проект01/res/Pasted image 20251122144723.png",
-    "Проект01/res/Pasted image 20251122143923.png",
     "Untitled.md",
-    "Проект01/Корпорация X.md",
-    "Проект01/Игра01.canvas",
-    "Проект01/Игра00.canvas",
     "Проект01/Игра00.md",
     "Проект01/Антиутопия.md",
     "Проект01/Игра01",
