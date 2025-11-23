@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"b8c26f585388ea12","type":"text","text":"#Репозиторий\n\nПроект FMOD должен располагаться в корне репозитория, на одном уровне с папкой Unity-проекта. Это обеспечит синхронизацию аудио-исходников у всей команды.","x":-406,"y":-430,"width":500,"height":160,"color":"1"},
+		{"id":"a93be71941734bf3","type":"text","text":"#POCO\n\nПеревести `AudioManager` из `MonoBehaviour` в чистый C# класс. Исключить прямые ссылки через Инспектор ( `[SerializeField]`), отделив логику от данных.","x":-406,"y":-233,"width":407,"height":193,"color":"1"},
+		{"id":"799e283ffb668d74","type":"text","text":"#Инициализация\n\nРеализовать метод `InitializeAsync` (в рамках `IInitializable` или аналога). Сервис должен сообщать о готовности только после загрузки необходимых банков/шин, чтобы избежать race condition при старте игры.\n\nВ классе `Application` есть нулевая точка инициалиции","x":-406,"y":160,"width":440,"height":260,"color":"1"},
+		{"id":"8d488ce230491efc","type":"text","text":" #DI\n\n1. Создать интерфейс `IAudioManager`\n2. Реализовать регистрацию сервиса в DI-контейнере (актуально для Zenject) в `AppInstaller`.\n3. Исключить паттерн Singleton ( `Instance`), использовать внедрение зависимостей.","x":60,"y":220,"width":560,"height":200,"color":"1"},
+		{"id":"7f5faf425890cd4c","type":"text","text":"#Рефакторинг\n\nМожно сделать кофигурацию в виде `ScriptableObject`\n\nНапример:\n```csharp\n[CreateAssetMenu(fileName = \"AudioConfig\", menuName = \"Configs/AudioConfig\")]\npublic class AudioConfig : ScriptableObject\n{\n\t[Header(\"FMOD Events\")]\n\tpublic EventReference MusicEvent;\n\tpublic List<EventReference> SfxEvents;\n\n\t[Header(\"Bus Paths\")]\n\tpublic string MusicBusPath = \"bus:/Music\";\n\tpublic string SfxBusPath = \"bus:/SFX\";\n}\n```","x":460,"y":-400,"width":760,"height":460,"color":"3"},
+		{"id":"15023a9bab19d87e","type":"text","text":"#Рефакторинг\n\nПереместить класс из `Core` в пространство имен `Project.Services`","x":-406,"y":0,"width":400,"height":120,"color":"1"},
+		{"id":"5a82075612f6e0db","type":"text","text":"#Инеграция #На_Подумать #Нетривиально\n\nОтказаться от `.unitypackage` для интеграции FMOD.\n\n1. Упаковать плагин в `.tgz` архив (tarball), содержащий `package.json`.\n2. Разместить архив по пути `unity.bga/Packages/FMOD.tgz`\n3. Подключить через Unity Package Manager (UPM) как локальный пакет.","x":660,"y":160,"width":560,"height":260,"color":"5"}
+	],
+	"edges":[
+		{"id":"6241fd93dcd8a813","fromNode":"a93be71941734bf3","fromSide":"right","toNode":"7f5faf425890cd4c","toSide":"left"}
+	]
+}

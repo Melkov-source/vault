@@ -11,14 +11,17 @@
             "id": "fd55ea2fdd3dd4b2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Проект01/Корпорация X.md",
-                "mode": "source",
-                "source": false
+                "file": "Проект01/Лор.canvas",
+                "viewState": {
+                  "x": 4289.79449878508,
+                  "y": 323.8027254530084,
+                  "zoom": -1
+                }
               },
-              "icon": "lucide-file",
-              "title": "Корпорация X"
+              "icon": "lucide-layout-dashboard",
+              "title": "Лор"
             }
           }
         ]
@@ -61,7 +64,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Поиск"
+              "title": "Search"
             }
           },
           {
@@ -78,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1b94c8c4170db154",
@@ -166,32 +170,35 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false,
-      "note-annotations:Enable highlighting mode": false,
-      "deepseek-ai-assistant:Open deepseek AI assistant": false
+      "note-annotations:Enable highlighting mode": false
     }
   },
   "active": "fd55ea2fdd3dd4b2",
   "lastOpenFiles": [
+    "Pasted image 20251123213919.png",
     "Проект01/Игра01.canvas",
     "Проект01/Игра00.canvas",
     "Проект01/Лор.canvas",
-    "Проект01/res/Pasted image 20251122211632.png",
     "Проект01/Корпорация X.md",
-    "Проект01/res/Pasted image 20251122214333.png",
-    "Проект01/res/Pasted image 20251122144530.png",
-    "Проект01/res/Pasted image 20251122151440.png",
-    "Проект01/res/Pasted image 20251122150852.png",
-    "Проект01/res/Pasted image 20251122150610.png",
-    "Проект01/res/Pasted image 20251122150537.png",
-    "Проект01/res/Pasted image 20251122150214.png",
-    "Проект01/res/Pasted image 20251122150200.png",
-    "Проект01/res/Pasted image 20251122144951.png",
+    "Самообучение/Книги.canvas",
+    "BGA/Правки.canvas",
+    "BGA",
+    "Самообучение/res/Pasted image 20251123145407.png",
+    "Самообучение/res/Pasted image 20251123163936.png",
+    "Самообучение/res/Pasted image 20251123163753.png",
+    "Самообучение/res/Pasted image 20251123163221.png",
+    "Самообучение/res/Pasted image 20251123162826.png",
+    "Самообучение/res/Pasted image 20251123162749.png",
+    "Самообучение/res/Pasted image 20251123162705.png",
+    "Самообучение/res/Pasted image 20251123162643.png",
+    "Самообучение/res/Pasted image 20251123162626.png",
+    "Самообучение/res/Pasted image 20251123162411.png",
     "Untitled.md",
+    "Самообучение/res",
+    "Самообучение",
     "Проект01/Игра00.md",
     "Проект01/Антиутопия.md",
     "Проект01/Игра01",
-    "Untitled",
     "Проект001/Идеи игры.canvas",
     "Проект01/res",
     "Проект001/Untitled.md",
@@ -211,8 +218,6 @@
     "Legacy/Tech/CDN. CloudFlare. Caching settings.md",
     "Без названия.base",
     "Без названия 1.base",
-    "Без названия 3.base",
-    "Без названия 2.base",
     "Legacy/Self/Книги/Антиутопии.md",
     "Legacy/ИП/ИП. Доходы - Расходы. Управление.md",
     "Legacy/ИП/Трудовой договор.md",
@@ -221,7 +226,6 @@
     "Tech/Cache.md",
     "To-day/-.md",
     "Книги/Список.md",
-    "Legacy/Self/Книги/Список.md",
-    "Untitled.canvas"
+    "Legacy/Self/Книги/Список.md"
   ]
 }
