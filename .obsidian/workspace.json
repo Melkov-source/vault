@@ -13,18 +13,80 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Проект01/Лор.canvas",
+                "file": "BGA/Задачи.canvas",
                 "viewState": {
-                  "x": 751.6946118896137,
-                  "y": 855.2002144287778,
-                  "zoom": -1.6376217913283644
+                  "x": 110,
+                  "y": 10,
+                  "zoom": 0
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Лор"
+              "title": "Задачи"
+            }
+          },
+          {
+            "id": "4956d57aa6cff34d",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "BGA/Правки.canvas",
+                "viewState": {
+                  "x": 407,
+                  "y": -5,
+                  "zoom": -0.18256324636858656
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Правки"
+            }
+          },
+          {
+            "id": "7caf7ddb1e8f1a1c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "c7ba01b12ff3bcab",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "BGA/Задачи.canvas",
+                "viewState": {
+                  "x": 521.5978217078252,
+                  "y": -21.639603460249184,
+                  "zoom": -0.6666666666666666
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Задачи"
+            }
+          },
+          {
+            "id": "1a2ef5593b876071",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "BGA/Задачи.canvas",
+                "viewState": {
+                  "x": 513.5722583013728,
+                  "y": 253.95420538632925,
+                  "zoom": -1.1102230246251565e-16
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Задачи"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -81,7 +143,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 421.5
   },
   "right": {
     "id": "1b94c8c4170db154",
@@ -169,13 +231,32 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "note-annotations:Enable highlighting mode": false
+      "note-annotations:Enable highlighting mode": false,
+      "card-board:CardBoard": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "fd55ea2fdd3dd4b2",
+  "active": "1a2ef5593b876071",
   "lastOpenFiles": [
-    "Проект01/res/Pasted image 20251124081933.png",
+    "BGA/res/Pasted image 20251125225751.png",
+    "BGA/res",
+    "BGA/Правки.canvas",
+    "BGA/Задачи.canvas",
+    "BGA/Drawing 2025-11-25 19.04.28.excalidraw.md",
+    "Untitled.canvas",
+    "BGA/Drawing 2025-11-25 18.42.25.excalidraw.md",
+    "BGA/Drawing 2025-11-25 18.42.25.excalidraw.restored.md",
+    "Excalidraw/Drawing 2025-11-25 18.43.05.excalidraw.md",
+    "Excalidraw/Drawing 2025-11-25 18.43.09.excalidraw.md",
+    "Excalidraw/Drawing 2025-11-25 18.42.40.excalidraw.md",
+    "Excalidraw",
+    "Untitled.base",
     "Проект01/Лор.canvas",
+    "Проект01/Антиутопия.md",
+    "Проект01/Игра00.canvas",
+    "Проект01/Игра01.canvas",
+    "Проект01/Корпорация X.md",
+    "Проект01/res/Pasted image 20251124081933.png",
     "Проект01/res/Pasted image 20251124214022.png",
     "Проект01/res/Pasted image 20251124213842.png",
     "Проект01/res/Pasted image 20251124213736.png",
@@ -185,18 +266,12 @@
     "Проект01/res/Pasted image 20251124213110.png",
     "Проект01/res/Pasted image 20251124212456.png",
     "Проект01/res/Pasted image 20251124212345.png",
-    "Проект01/res/Pasted image 20251124211915.png",
     "Untitled.md",
-    "Проект01/Корпорация X.md",
-    "Проект01/Игра00.canvas",
     "Самообучение/Книги.canvas",
-    "Проект01/Игра01.canvas",
-    "BGA/Правки.canvas",
     "BGA",
     "Самообучение/res",
     "Самообучение",
     "Проект01/Игра00.md",
-    "Проект01/Антиутопия.md",
     "Проект01/Игра01",
     "Проект001/Идеи игры.canvas",
     "Проект01/res",
@@ -213,18 +288,9 @@
     "2025-09-12.md",
     "Legacy/Tech/CDN. Overview.md",
     "conflict-files-obsidian-git.md",
-    "Dari",
     "Legacy/Tech/CDN. CloudFlare. Caching settings.md",
-    "Без названия.base",
-    "Без названия 1.base",
     "Legacy/Self/Книги/Антиутопии.md",
     "Legacy/ИП/ИП. Доходы - Расходы. Управление.md",
-    "Legacy/ИП/Трудовой договор.md",
-    "Legacy/ИП/T1.md",
-    "ИП. Доходы - Расходы. Управление.md",
-    "Tech/Cache.md",
-    "To-day/-.md",
-    "Книги/Список.md",
-    "Legacy/Self/Книги/Список.md"
+    "Legacy/ИП/Трудовой договор.md"
   ]
 }
