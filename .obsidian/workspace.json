@@ -74,15 +74,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "BGA/Задачи.canvas",
+                "file": "Проект01/Лор.canvas",
                 "viewState": {
-                  "x": 513.5722583013728,
-                  "y": 253.95420538632925,
-                  "zoom": -1.1102230246251565e-16
+                  "x": 5780.51523185983,
+                  "y": 3222.9918591731453,
+                  "zoom": -3.6666666666666665
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Задачи"
+              "title": "Лор"
             }
           }
         ],
@@ -238,11 +238,23 @@
   },
   "active": "1a2ef5593b876071",
   "lastOpenFiles": [
-    "BGA/res/Pasted image 20251125225751.png",
+    "Проект01/Антиутопия.md",
+    "Проект01/Лор.canvas",
+    "Проект01/Корпорация X.md",
+    "BGA/Задачи.canvas",
+    "Проект01/res/Pasted image 20251126054357.png",
+    "Pasted image 20251126062915.png",
+    "Проект01/res/Pasted image 20251126062609.png",
+    "Проект01/res/Pasted image 20251126062209.png",
+    "Проект01/res/Pasted image 20251126061914.png",
+    "Проект01/res/Pasted image 20251126061808.png",
+    "Проект01/res/Pasted image 20251126061603.png",
+    "Проект01/res/Pasted image 20251126061222.png",
+    "Проект01/res/Pasted image 20251126061217.png",
+    "Проект01/res/Pasted image 20251126060941.png",
+    "BGA/Drawing 2025-11-25 19.04.28.excalidraw.md",
     "BGA/res",
     "BGA/Правки.canvas",
-    "BGA/Задачи.canvas",
-    "BGA/Drawing 2025-11-25 19.04.28.excalidraw.md",
     "Untitled.canvas",
     "BGA/Drawing 2025-11-25 18.42.25.excalidraw.md",
     "BGA/Drawing 2025-11-25 18.42.25.excalidraw.restored.md",
@@ -251,21 +263,8 @@
     "Excalidraw/Drawing 2025-11-25 18.42.40.excalidraw.md",
     "Excalidraw",
     "Untitled.base",
-    "Проект01/Лор.canvas",
-    "Проект01/Антиутопия.md",
     "Проект01/Игра00.canvas",
     "Проект01/Игра01.canvas",
-    "Проект01/Корпорация X.md",
-    "Проект01/res/Pasted image 20251124081933.png",
-    "Проект01/res/Pasted image 20251124214022.png",
-    "Проект01/res/Pasted image 20251124213842.png",
-    "Проект01/res/Pasted image 20251124213736.png",
-    "Проект01/res/Pasted image 20251124213650.png",
-    "Проект01/res/Pasted image 20251124213640.png",
-    "Проект01/res/Pasted image 20251124213532.png",
-    "Проект01/res/Pasted image 20251124213110.png",
-    "Проект01/res/Pasted image 20251124212456.png",
-    "Проект01/res/Pasted image 20251124212345.png",
     "Untitled.md",
     "Самообучение/Книги.canvas",
     "BGA",
