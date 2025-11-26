@@ -74,15 +74,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Проект01/Лор.canvas",
+                "file": "Проект01/Игра01.canvas",
                 "viewState": {
-                  "x": 5780.51523185983,
-                  "y": 3222.9918591731453,
-                  "zoom": -3.6666666666666665
+                  "x": 1344.9123711340208,
+                  "y": -187.4880412371134,
+                  "zoom": -0.507984219477484
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Лор"
+              "title": "Игра01"
             }
           }
         ],
@@ -238,8 +238,12 @@
   },
   "active": "1a2ef5593b876071",
   "lastOpenFiles": [
-    "Проект01/Антиутопия.md",
     "Проект01/Лор.canvas",
+    "Pasted image 20251127000742.png",
+    "Проект01/Игра01.canvas",
+    "Проект01/Игра00.canvas",
+    "Проект01/res/Pasted image 20251126234529.png",
+    "Проект01/Антиутопия.md",
     "Проект01/Корпорация X.md",
     "BGA/Задачи.canvas",
     "Проект01/res/Pasted image 20251126054357.png",
@@ -250,8 +254,6 @@
     "Проект01/res/Pasted image 20251126061808.png",
     "Проект01/res/Pasted image 20251126061603.png",
     "Проект01/res/Pasted image 20251126061222.png",
-    "Проект01/res/Pasted image 20251126061217.png",
-    "Проект01/res/Pasted image 20251126060941.png",
     "BGA/Drawing 2025-11-25 19.04.28.excalidraw.md",
     "BGA/res",
     "BGA/Правки.canvas",
@@ -263,8 +265,6 @@
     "Excalidraw/Drawing 2025-11-25 18.42.40.excalidraw.md",
     "Excalidraw",
     "Untitled.base",
-    "Проект01/Игра00.canvas",
-    "Проект01/Игра01.canvas",
     "Untitled.md",
     "Самообучение/Книги.canvas",
     "BGA",
