@@ -30,38 +30,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "BGA/Правки.canvas",
-                "viewState": {
-                  "x": 407,
-                  "y": -5,
-                  "zoom": -0.18256324636858656
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Правки"
-            }
-          },
-          {
-            "id": "7caf7ddb1e8f1a1c",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "c7ba01b12ff3bcab",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
                 "file": "BGA/Задачи.canvas",
                 "viewState": {
-                  "x": 521.5978217078252,
-                  "y": -21.639603460249184,
-                  "zoom": -0.6666666666666666
+                  "x": 3014.9452837031376,
+                  "y": 249.6408710879517,
+                  "zoom": 0.12079973874730354
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -69,20 +42,54 @@
             }
           },
           {
-            "id": "1a2ef5593b876071",
+            "id": "91ddcb85a3210dc4",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Проект01/Игра01.canvas",
+                "file": "BGA/Задачи.canvas",
                 "viewState": {
-                  "x": 1344.9123711340208,
-                  "y": -187.4880412371134,
-                  "zoom": -0.507984219477484
+                  "x": 3182.883414328226,
+                  "y": 484.9930154529335,
+                  "zoom": -0.09074300885600184
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Игра01"
+              "title": "Задачи"
+            }
+          },
+          {
+            "id": "05f94eb35346da25",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "BGA/Задачи.canvas",
+                "viewState": {
+                  "x": 3902.2263472463083,
+                  "y": 620.5240944929703,
+                  "zoom": -0.8114495152355576
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Задачи"
+            }
+          },
+          {
+            "id": "664191787e986e24",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "BGA/Задачи.canvas",
+                "viewState": {
+                  "x": 1562.5,
+                  "y": 494,
+                  "zoom": -1.6401618899149506
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Задачи"
             }
           }
         ],
@@ -143,7 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 421.5
+    "width": 265.5
   },
   "right": {
     "id": "1b94c8c4170db154",
@@ -233,19 +240,33 @@
       "bases:Create new base": false,
       "note-annotations:Enable highlighting mode": false,
       "card-board:CardBoard": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "univer:Univer": false
     }
   },
-  "active": "1a2ef5593b876071",
+  "active": "93c38509cbc4f9cd",
   "lastOpenFiles": [
-    "Проект01/Лор.canvas",
-    "Pasted image 20251127000742.png",
+    "Diagram.svg",
+    "BGA/Задачи.canvas",
+    "BGA/Drawing 2025-11-25 19.04.28.excalidraw.md",
+    "BGA/Untitled 1.md",
+    "BGA/Untitled.md",
+    "BGA/Drawing 2025-11-27 22.00.49.excalidraw.md",
+    "Untitled.usheet",
+    "Diagram.svg.xml",
+    "BGA/Правки.canvas",
+    "Тест.md",
+    "Vecxy/Архитектура.canvas",
+    "Excalidraw/Drawing 2025-11-27 21.53.43.excalidraw.md",
+    "Самообучение/Книги.canvas",
+    "Vecxy",
+    "Проект01/res/Pasted image 20251127000742.png",
     "Проект01/Игра01.canvas",
+    "Проект01/Лор.canvas",
     "Проект01/Игра00.canvas",
     "Проект01/res/Pasted image 20251126234529.png",
     "Проект01/Антиутопия.md",
     "Проект01/Корпорация X.md",
-    "BGA/Задачи.canvas",
     "Проект01/res/Pasted image 20251126054357.png",
     "Pasted image 20251126062915.png",
     "Проект01/res/Pasted image 20251126062609.png",
@@ -253,10 +274,7 @@
     "Проект01/res/Pasted image 20251126061914.png",
     "Проект01/res/Pasted image 20251126061808.png",
     "Проект01/res/Pasted image 20251126061603.png",
-    "Проект01/res/Pasted image 20251126061222.png",
-    "BGA/Drawing 2025-11-25 19.04.28.excalidraw.md",
     "BGA/res",
-    "BGA/Правки.canvas",
     "Untitled.canvas",
     "BGA/Drawing 2025-11-25 18.42.25.excalidraw.md",
     "BGA/Drawing 2025-11-25 18.42.25.excalidraw.restored.md",
@@ -265,19 +283,14 @@
     "Excalidraw/Drawing 2025-11-25 18.42.40.excalidraw.md",
     "Excalidraw",
     "Untitled.base",
-    "Untitled.md",
-    "Самообучение/Книги.canvas",
     "BGA",
     "Самообучение/res",
     "Самообучение",
     "Проект01/Игра00.md",
     "Проект01/Игра01",
     "Проект001/Идеи игры.canvas",
-    "Проект01/res",
     "Проект001/Untitled.md",
     "Legacy/WebGL Build Identifier.md",
-    "Проект01",
-    "Legacy",
     "Legacy/TMA.md",
     "Legacy/Test.md",
     "Legacy/Roadmap для веб-разработчика игр. Введение в наш стек и процессы.md",
@@ -286,10 +299,6 @@
     "Dari/blender.md",
     "2025-09-12.md",
     "Legacy/Tech/CDN. Overview.md",
-    "conflict-files-obsidian-git.md",
-    "Legacy/Tech/CDN. CloudFlare. Caching settings.md",
-    "Legacy/Self/Книги/Антиутопии.md",
-    "Legacy/ИП/ИП. Доходы - Расходы. Управление.md",
-    "Legacy/ИП/Трудовой договор.md"
+    "conflict-files-obsidian-git.md"
   ]
 }

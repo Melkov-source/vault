@@ -1,5 +1,7 @@
 [
   "obsidian-pandoc",
   "note-annotations",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "obsidian-diagrams-net",
+  "univer"
 ]
