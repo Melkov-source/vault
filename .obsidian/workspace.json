@@ -8,92 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fd55ea2fdd3dd4b2",
+            "id": "7b52bc47240fc72d",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "BGA/Задачи.canvas",
-                "viewState": {
-                  "x": 110,
-                  "y": 10,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Задачи"
+              "type": "diagrams-net",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Diagram"
             }
           },
           {
-            "id": "4956d57aa6cff34d",
+            "id": "c7ba472a454723d6",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "BGA/Задачи.canvas",
-                "viewState": {
-                  "x": 3014.9452837031376,
-                  "y": 249.6408710879517,
-                  "zoom": 0.12079973874730354
-                }
+                "file": "Legacy/WebGL Build Identifier.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Задачи"
-            }
-          },
-          {
-            "id": "91ddcb85a3210dc4",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "BGA/Задачи.canvas",
-                "viewState": {
-                  "x": 3182.883414328226,
-                  "y": 484.9930154529335,
-                  "zoom": -0.09074300885600184
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Задачи"
-            }
-          },
-          {
-            "id": "05f94eb35346da25",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "BGA/Задачи.canvas",
-                "viewState": {
-                  "x": 3902.2263472463083,
-                  "y": 620.5240944929703,
-                  "zoom": -0.8114495152355576
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Задачи"
-            }
-          },
-          {
-            "id": "664191787e986e24",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "BGA/Задачи.canvas",
-                "viewState": {
-                  "x": 1562.5,
-                  "y": 494,
-                  "zoom": -1.6401618899149506
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Задачи"
+              "icon": "lucide-file",
+              "title": "WebGL Build Identifier"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -239,41 +178,59 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "note-annotations:Enable highlighting mode": false,
-      "card-board:CardBoard": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "univer:Univer": false
     }
   },
-  "active": "93c38509cbc4f9cd",
+  "active": "c7ba472a454723d6",
   "lastOpenFiles": [
-    "Diagram.svg",
+    "Legacy/TMA.md",
+    "Legacy/Test.md",
+    "Legacy/ИП/Трудовой договор.md",
+    "Legacy/ИП/ИП. Доходы - Расходы. Управление.md",
+    "Legacy/ИП/T1.md",
+    "Legacy/ИП/Pasted image 20250911165629.png",
+    "Legacy/Self/Storytelling/Диалоги.md",
+    "Legacy/Self/Бокс/Мысли.md",
+    "Legacy/Self/Книги/Список книг.md",
+    "Legacy/Self/Книги/Список.md",
+    "Legacy/Self/Книги/Антиутопии.md",
+    "RAT/Архитектура.svg",
+    "RAT/Приложение.canvas",
+    "Vecxy/Архитектура.canvas",
+    "Проект01/Игра00.canvas",
+    "Проект01/Игра01.canvas",
+    "Проект01/Лор.canvas",
+    "Самообучение/Книги.canvas",
+    "Проект01/res/Pasted image 20251204225408.png",
+    "Проект01/res/Pasted image 20251204230145.png",
+    "Проект01/res/Pasted image 20251204230120.png",
+    "Проект01/res/Pasted image 20251204225617.png",
+    "Vecxy/res/Pasted image 20251203233122.png",
+    "Vecxy/res/Pasted image 20251203232212.png",
+    "Vecxy/res/Pasted image 20251203232134.png",
+    "Pasted image 20251203232854.png",
+    "Vecxy/res",
+    "RAT/Архитектура.svg.xml",
+    "Проект01/res/2025-11-28 19-25-44.mp4",
+    "RAT",
     "BGA/Задачи.canvas",
+    "Test/Борда.canvas",
+    "Test/Drawing 2025-11-27 22.19.18.excalidraw.md",
+    "Test/Untitled.usheet",
+    "Test/Diagram.svg.xml",
+    "Test/Тест1.md",
+    "Test",
     "BGA/Drawing 2025-11-25 19.04.28.excalidraw.md",
     "BGA/Untitled 1.md",
     "BGA/Untitled.md",
     "BGA/Drawing 2025-11-27 22.00.49.excalidraw.md",
-    "Untitled.usheet",
-    "Diagram.svg.xml",
     "BGA/Правки.canvas",
     "Тест.md",
-    "Vecxy/Архитектура.canvas",
     "Excalidraw/Drawing 2025-11-27 21.53.43.excalidraw.md",
-    "Самообучение/Книги.canvas",
     "Vecxy",
-    "Проект01/res/Pasted image 20251127000742.png",
-    "Проект01/Игра01.canvas",
-    "Проект01/Лор.canvas",
-    "Проект01/Игра00.canvas",
-    "Проект01/res/Pasted image 20251126234529.png",
     "Проект01/Антиутопия.md",
     "Проект01/Корпорация X.md",
-    "Проект01/res/Pasted image 20251126054357.png",
-    "Pasted image 20251126062915.png",
-    "Проект01/res/Pasted image 20251126062609.png",
-    "Проект01/res/Pasted image 20251126062209.png",
-    "Проект01/res/Pasted image 20251126061914.png",
-    "Проект01/res/Pasted image 20251126061808.png",
-    "Проект01/res/Pasted image 20251126061603.png",
     "BGA/res",
     "Untitled.canvas",
     "BGA/Drawing 2025-11-25 18.42.25.excalidraw.md",
@@ -282,23 +239,6 @@
     "Excalidraw/Drawing 2025-11-25 18.43.09.excalidraw.md",
     "Excalidraw/Drawing 2025-11-25 18.42.40.excalidraw.md",
     "Excalidraw",
-    "Untitled.base",
-    "BGA",
-    "Самообучение/res",
-    "Самообучение",
-    "Проект01/Игра00.md",
-    "Проект01/Игра01",
-    "Проект001/Идеи игры.canvas",
-    "Проект001/Untitled.md",
-    "Legacy/WebGL Build Identifier.md",
-    "Legacy/TMA.md",
-    "Legacy/Test.md",
-    "Legacy/Roadmap для веб-разработчика игр. Введение в наш стек и процессы.md",
-    "Legacy/HH/Резюме (Пробник) (2025 Apr 16).md",
-    "Legacy/HH/Дмитрий Мелков. TiltShift.md",
-    "Dari/blender.md",
-    "2025-09-12.md",
-    "Legacy/Tech/CDN. Overview.md",
-    "conflict-files-obsidian-git.md"
+    "Проект01/Игра00.md"
   ]
 }
