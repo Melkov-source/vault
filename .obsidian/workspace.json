@@ -21,12 +21,17 @@
             "id": "c7ba472a454723d6",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "canvas",
               "state": {
-                "file": "Самообучение/res/Pasted image 20251206093540.png"
+                "file": "Самообучение/Книги.canvas",
+                "viewState": {
+                  "x": 4411.704079504454,
+                  "y": 1753.841316708724,
+                  "zoom": -0.5664049927857258
+                }
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20251206093540"
+              "icon": "lucide-layout-dashboard",
+              "title": "Книги"
             }
           }
         ],
@@ -180,12 +185,13 @@
       "univer:Univer": false
     }
   },
-  "active": "93c38509cbc4f9cd",
+  "active": "c7ba472a454723d6",
   "lastOpenFiles": [
+    "Pasted image 20251206094310.png",
+    "Самообучение/res/Pasted image 20251206093540.png",
     "Самообучение/Книги.canvas",
     "Самообучение/Рендеринг.canvas",
     "Самообучение/res/Pasted image 20251206093656.png",
-    "Самообучение/res/Pasted image 20251206093540.png",
     "().md",
     "Untitled.md",
     "Самообучение/Untitled",
