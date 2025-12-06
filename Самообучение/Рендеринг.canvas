@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"54598f5cac34ee71","type":"group","x":1573,"y":-1080,"width":1380,"height":500,"label":"# Fabien Sanglard"},
+		{"id":"550d09f19ba23dcd","type":"group","x":295,"y":-280,"width":740,"height":520,"label":"Eric Haines"},
+		{"id":"2b15be2633a6ec7f","type":"group","x":-480,"y":-280,"width":708,"height":520,"label":"Eric Lengyel"},
+		{"id":"1846a24a94e15545","x":295,"y":360,"width":681,"height":475,"type":"group","label":"Frank D. Luna"},
+		{"id":"97496170c6b6f129","x":-480,"y":360,"width":681,"height":450,"type":"group","label":"Allen Sherrod and Wendy Jones"},
+		{"id":"a17f421e809187f7","type":"group","x":-458,"y":-240,"width":666,"height":460},
+		{"id":"6f5c50581abd98bb","type":"group","x":1573,"y":-1680,"width":633,"height":460,"label":"Zeeshan Jawed Shah"},
+		{"id":"561402a40e196ba4","type":"group","x":2273,"y":-1060,"width":658,"height":440},
+		{"id":"7be0e710a7e45c5b","type":"group","x":1598,"y":-1060,"width":655,"height":440},
+		{"id":"0ad1fb75de6e5c97","type":"group","x":2273,"y":-1680,"width":592,"height":460,"label":"Álvaro Alda"},
+		{"id":"c01cd60b4add824b","type":"text","text":"# Статьи\n\n- [ ] [Как работает видеопроцессор](https://habr.com/ru/articles/337484/ )\n- [ ] [Как происходит рендеринг кадра в GTA V](https://habr.com/ru/companies/ua-hosting/articles/271931/)\n- [ ] [Рендер Diablo3. Как это работает](https://habr.com/ru/articles/157447/)\n- [ ] [Как рендерится кадр нового Doom](https://habr.com/ru/articles/309844/)\n\n","x":-1270,"y":-309,"width":510,"height":229},
+		{"id":"97d0a3b21cbb7f8b","type":"file","file":"Самообучение/res/Pasted image 20251205232825.png","x":1593,"y":-1640,"width":324,"height":400},
+		{"id":"465d182ce88b4023","type":"text","text":"# Zeeshan Jawed Shah\n\nRealistic Asset Creation with Adobe Substance 3D: Create materials, textures, filters, and 3D models using Substance 3D Painter, Designer, and Stager","x":1950,"y":-1640,"width":236,"height":400},
+		{"id":"0e5484b0e2eaeb17","type":"file","file":"Самообучение/res/Pasted image 20251205232155.png","x":2293,"y":-1640,"width":277,"height":400},
+		{"id":"dc218ce0d53a1636","type":"text","text":"# Álvaro Alda\n\nBeginner's Guide to Unity Shader Graph: Create Immersive Game Worlds Using Unity’s Shader Tool First Edition","x":2609,"y":-1640,"width":236,"height":400},
+		{"id":"9e668d69afd14f6d","type":"text","text":"# Fabien Sanglard\n\nGame Engine Black Book: DOOM: v1.2","x":1953,"y":-1040,"width":280,"height":400},
+		{"id":"c7007834a80fdb13","type":"file","file":"Самообучение/res/Pasted image 20251123161932.png","x":2293,"y":-1040,"width":321,"height":400},
+		{"id":"ae091691aa9566bf","type":"text","text":"# Fabien Sanglard\n\nGame Engine Black Book Wolfenstein 3D: v2.2","x":2631,"y":-1040,"width":280,"height":400},
+		{"id":"0d3c3f646beb8463","type":"text","text":"# Eric Lengyel\n\nFoundations of Game Engine Development, Volume 2: Rendering","x":-92,"y":-200,"width":280,"height":400},
+		{"id":"8c2cafdc16952780","type":"file","file":"Самообучение/res/Pasted image 20251123161730.png","x":-438,"y":-200,"width":322,"height":400},
+		{"id":"8029c5ced29bfc09","type":"file","file":"Самообучение/res/Pasted image 20251123161553.png","x":315,"y":-240,"width":369,"height":460},
+		{"id":"03ff7236ddeb4ab6","type":"text","text":"# Eric Haines\n\nReal-Time Rendering, Fourth Edition 4th Edition","x":695,"y":-240,"width":320,"height":460},
+		{"id":"9159813e1fc63ba6","type":"file","file":"Самообучение/res/Pasted image 20251123161843.png","x":1618,"y":-1040,"width":318,"height":400},
+		{"id":"c58ce12f3a8292f9","type":"file","file":"Самообучение/res/Pasted image 20251206093540.png","x":-460,"y":390,"width":325,"height":400},
+		{"id":"b56aa4c157274cd4","type":"text","text":"# Allen Sherrod and Wendy Jones\n\n\nBeginning DirectX R 11 Game Programming","x":-102,"y":390,"width":283,"height":400},
+		{"id":"e98bf81463443fd8","x":315,"y":400,"width":325,"height":415,"type":"file","file":"Самообучение/res/Pasted image 20251206093656.png"},
+		{"id":"be3132ef1018852b","type":"text","text":"# Frank D. Luna\n\nIntroduction to 3D GAME PROGRAMMING WITH DIRECTX® 11","x":673,"y":400,"width":283,"height":400}
+	],
+	"edges":[]
+}
