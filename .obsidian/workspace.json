@@ -23,15 +23,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Самообучение/Книги.canvas",
+                "file": "Блог/Блог.canvas",
                 "viewState": {
-                  "x": 4411.704079504454,
-                  "y": 1753.841316708724,
-                  "zoom": -0.5664049927857258
+                  "x": -100,
+                  "y": -7,
+                  "zoom": 0
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Книги"
+              "title": "Блог"
             }
           }
         ],
@@ -185,11 +185,24 @@
       "univer:Univer": false
     }
   },
-  "active": "c7ba472a454723d6",
+  "active": "93c38509cbc4f9cd",
   "lastOpenFiles": [
-    "Pasted image 20251206094310.png",
-    "Самообучение/res/Pasted image 20251206093540.png",
+    "Проект01/res/Pasted image 20251209203645.png",
+    "Блог/Блог.canvas",
+    "Блог",
+    "Проект01/Лор.canvas",
+    "Проект01/res/Pasted image 20251209203711.png",
+    "Проект01/res/Pasted image 20251209203656.png",
+    "Проект01/Игра01.canvas",
+    "Проект01/Игра00.canvas",
+    "Vecxy/Архитектура.canvas",
+    "Excalidraw/Drawing 2025-11-27 21.53.43.excalidraw.md",
+    "Самообучение/res/Pasted image 20251207223537.png",
+    "Самообучение/res/Pasted image 20251206094310.png",
     "Самообучение/Книги.canvas",
+    "BGA/Архитектура.canvas",
+    "BGA/Задачи.canvas",
+    "Самообучение/res/Pasted image 20251206093540.png",
     "Самообучение/Рендеринг.canvas",
     "Самообучение/res/Pasted image 20251206093656.png",
     "().md",
@@ -204,27 +217,16 @@
     "Legacy/ИП/Трудовой договор.md",
     "Legacy/ИП/ИП. Доходы - Расходы. Управление.md",
     "Legacy/ИП/T1.md",
-    "Legacy/ИП/Pasted image 20250911165629.png",
     "Legacy/Self/Storytelling/Диалоги.md",
     "Legacy/Self/Бокс/Мысли.md",
     "Legacy/Self/Книги/Список книг.md",
     "Legacy/Self/Книги/Список.md",
     "Legacy/Self/Книги/Антиутопии.md",
-    "RAT/Архитектура.svg",
     "RAT/Приложение.canvas",
-    "Vecxy/Архитектура.canvas",
-    "Проект01/Игра00.canvas",
-    "Проект01/Игра01.canvas",
-    "Проект01/Лор.canvas",
-    "Проект01/res/Pasted image 20251204225408.png",
-    "Проект01/res/Pasted image 20251204230145.png",
-    "Проект01/res/Pasted image 20251204230120.png",
     "Vecxy/res",
     "RAT/Архитектура.svg.xml",
     "Проект01/res/2025-11-28 19-25-44.mp4",
     "RAT",
-    "BGA/Задачи.canvas",
-    "Test/Борда.canvas",
     "Test/Drawing 2025-11-27 22.19.18.excalidraw.md",
     "Test/Untitled.usheet",
     "Test/Diagram.svg.xml",
@@ -234,13 +236,10 @@
     "BGA/Untitled 1.md",
     "BGA/Untitled.md",
     "BGA/Drawing 2025-11-27 22.00.49.excalidraw.md",
-    "BGA/Правки.canvas",
     "Тест.md",
-    "Excalidraw/Drawing 2025-11-27 21.53.43.excalidraw.md",
     "Vecxy",
     "Проект01/Антиутопия.md",
     "Проект01/Корпорация X.md",
-    "BGA/res",
     "BGA/Drawing 2025-11-25 18.42.25.excalidraw.md",
     "BGA/Drawing 2025-11-25 18.42.25.excalidraw.restored.md"
   ]

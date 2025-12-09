@@ -5,13 +5,15 @@
 		{"id":"26f2798ea8f3762d","type":"text","text":"Сделать анимации выделения комбинаций","x":-406,"y":-40,"width":250,"height":60},
 		{"id":"a435a03e34d07ebc","type":"text","text":"Сделать систему наград за комбинацию","x":-79,"y":-40,"width":250,"height":60},
 		{"id":"bfaf293b0f2649ea","type":"file","file":"BGA/res/Pasted image 20251125225751.png","x":416,"y":160,"width":364,"height":400},
-		{"id":"4ce735fd5a839049","type":"text","text":"Устанавливать при первом запуске стандартные слоты рандомные, сейчас там белые квадраты","x":402,"y":-55,"width":393,"height":90,"color":"1"}
+		{"id":"4ce735fd5a839049","type":"text","text":"Устанавливать при первом запуске стандартные слоты рандомные, сейчас там белые квадраты","x":402,"y":-55,"width":393,"height":90,"color":"1"},
+		{"id":"f6b6d4f391d0947b","x":-247,"y":158,"width":250,"height":60,"type":"text","text":"Сделать крутку быстрее по скорости"}
 	],
 	"edges":[
 		{"id":"12a32349681d3c72","fromNode":"0f11f96dfa237de0","fromSide":"bottom","toNode":"6ff6535b07dfd80a","toSide":"top"},
 		{"id":"bf7e50b05b2a7781","fromNode":"0f11f96dfa237de0","fromSide":"bottom","toNode":"26f2798ea8f3762d","toSide":"top"},
 		{"id":"0c5e881daed97461","fromNode":"0f11f96dfa237de0","fromSide":"bottom","toNode":"a435a03e34d07ebc","toSide":"top"},
 		{"id":"434177502577fb19","fromNode":"0f11f96dfa237de0","fromSide":"bottom","toNode":"4ce735fd5a839049","toSide":"top"},
-		{"id":"5af9267b6d792fa9","fromNode":"4ce735fd5a839049","fromSide":"bottom","toNode":"bfaf293b0f2649ea","toSide":"top"}
+		{"id":"5af9267b6d792fa9","fromNode":"4ce735fd5a839049","fromSide":"bottom","toNode":"bfaf293b0f2649ea","toSide":"top"},
+		{"id":"28fb1496196d86e4","fromNode":"0f11f96dfa237de0","fromSide":"bottom","toNode":"f6b6d4f391d0947b","toSide":"top"}
 	]
 }

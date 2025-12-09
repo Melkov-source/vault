@@ -6,15 +6,15 @@
 		{"id":"8422e85b57b0b277","type":"text","text":"Engine","x":740,"y":-607,"width":120,"height":50,"color":"4"},
 		{"id":"45083deb48277d78","type":"text","text":"Editor","x":880,"y":-607,"width":102,"height":50,"color":"2"},
 		{"id":"697e4fe26c13e4ef","type":"text","text":"Launcher","x":880,"y":-680,"width":122,"height":50,"color":"3"},
-		{"id":"a0d3f40383ae2bc1","type":"file","file":"Vecxy/res/Pasted image 20251203233122.png","x":-403,"y":240,"width":69,"height":69},
-		{"id":"0dc4d287d757c6a4","type":"file","file":"Vecxy/res/Pasted image 20251203232134.png","x":-404,"y":-60,"width":70,"height":70},
-		{"id":"ac8b0a9ad1a3ef45","type":"text","text":"Kotlin","x":-280,"y":240,"width":117,"height":60},
 		{"id":"35026be8a676b04a","type":"text","text":".NET 10","x":-420,"y":-680,"width":103,"height":60,"color":"4"},
 		{"id":"4572343844ae9c38","type":"text","text":"C# 14","x":-297,"y":-680,"width":100,"height":60,"color":"4"},
 		{"id":"eb96efff7a1082c3","type":"text","text":"HTML5","x":-180,"y":-520,"width":100,"height":60},
 		{"id":"f813055d64860fd3","type":"text","text":"CSS","x":-180,"y":-460,"width":80,"height":60},
 		{"id":"b5d7e58826c94eff","type":"file","file":"Vecxy/res/Pasted image 20251203232912.png","x":-403,"y":-480,"width":72,"height":80},
 		{"id":"798a690f55e2aa0b","type":"text","text":"TypeScript","x":-314,"y":-460,"width":134,"height":60},
+		{"id":"a0d3f40383ae2bc1","type":"file","file":"Vecxy/res/Pasted image 20251203233122.png","x":-403,"y":240,"width":69,"height":69},
+		{"id":"0dc4d287d757c6a4","type":"file","file":"Vecxy/res/Pasted image 20251203232134.png","x":-404,"y":-60,"width":70,"height":70},
+		{"id":"ac8b0a9ad1a3ef45","type":"text","text":"Kotlin","x":-280,"y":240,"width":117,"height":60},
 		{"id":"93b5a7a888fc23a8","type":"text","text":"JavaScript","x":-314,"y":-520,"width":134,"height":60}
 	],
 	"edges":[]
