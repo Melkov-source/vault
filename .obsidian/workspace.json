@@ -23,15 +23,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Блог/Блог.canvas",
+                "file": "Планы.canvas",
                 "viewState": {
-                  "x": -100,
-                  "y": -7,
-                  "zoom": 0
+                  "x": 761.1010304205747,
+                  "y": 4223.429783507332,
+                  "zoom": -1.3333333333333333
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Блог"
+              "title": "Планы"
             }
           }
         ],
@@ -185,10 +185,11 @@
       "univer:Univer": false
     }
   },
-  "active": "93c38509cbc4f9cd",
+  "active": "c7ba472a454723d6",
   "lastOpenFiles": [
-    "Проект01/res/Pasted image 20251209203645.png",
     "Блог/Блог.canvas",
+    "Планы.canvas",
+    "Проект01/res/Pasted image 20251209203645.png",
     "Блог",
     "Проект01/Лор.canvas",
     "Проект01/res/Pasted image 20251209203711.png",
