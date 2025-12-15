@@ -21,17 +21,12 @@
             "id": "c7ba472a454723d6",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "image",
               "state": {
-                "file": "Планы.canvas",
-                "viewState": {
-                  "x": 761.1010304205747,
-                  "y": 4223.429783507332,
-                  "zoom": -1.3333333333333333
-                }
+                "file": "Проект01/res/Pasted image 20251215220521.png"
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Планы"
+              "icon": "lucide-image",
+              "title": "Pasted image 20251215220521"
             }
           }
         ],
@@ -185,33 +180,33 @@
       "univer:Univer": false
     }
   },
-  "active": "c7ba472a454723d6",
+  "active": "93c38509cbc4f9cd",
   "lastOpenFiles": [
-    "Блог/Блог.canvas",
-    "Планы.canvas",
-    "Проект01/res/Pasted image 20251209203645.png",
-    "Блог",
     "Проект01/Лор.canvas",
-    "Проект01/res/Pasted image 20251209203711.png",
-    "Проект01/res/Pasted image 20251209203656.png",
+    "Проект01/res/Pasted image 20251215222208.png",
+    "Проект01/res/Pasted image 20251215222055.png",
+    "Проект01/res/Pasted image 20251215221923.png",
+    "Проект01/res/Pasted image 20251215221106.png",
+    "Проект01/res/Pasted image 20251215220521.png",
+    "Проект01/res/Pasted image 20251214174854.png",
+    "Проект01/res/Pasted image 20251215214209.png",
+    "Проект01/res/Pasted image 20251215214153.png",
+    "Проект01/res/Pasted image 20251214175016.png",
+    "Проект01/res/Pasted image 20251214174944.png",
+    "Планы.canvas",
+    "Блог/Блог.canvas",
+    "Блог",
     "Проект01/Игра01.canvas",
     "Проект01/Игра00.canvas",
     "Vecxy/Архитектура.canvas",
     "Excalidraw/Drawing 2025-11-27 21.53.43.excalidraw.md",
-    "Самообучение/res/Pasted image 20251207223537.png",
-    "Самообучение/res/Pasted image 20251206094310.png",
     "Самообучение/Книги.canvas",
     "BGA/Архитектура.canvas",
     "BGA/Задачи.canvas",
-    "Самообучение/res/Pasted image 20251206093540.png",
     "Самообучение/Рендеринг.canvas",
-    "Самообучение/res/Pasted image 20251206093656.png",
     "().md",
     "Untitled.md",
     "Самообучение/Untitled",
-    "Самообучение/res/Pasted image 20251205231502.png",
-    "Самообучение/res/Pasted image 20251205232825.png",
-    "Самообучение/res/Pasted image 20251205232155.png",
     "Legacy/WebGL Build Identifier.md",
     "Legacy/TMA.md",
     "Legacy/Test.md",
@@ -223,7 +218,6 @@
     "Legacy/Self/Книги/Список книг.md",
     "Legacy/Self/Книги/Список.md",
     "Legacy/Self/Книги/Антиутопии.md",
-    "RAT/Приложение.canvas",
     "Vecxy/res",
     "RAT/Архитектура.svg.xml",
     "Проект01/res/2025-11-28 19-25-44.mp4",
