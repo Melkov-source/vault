@@ -1,0 +1,30 @@
+{
+	"nodes":[
+		{"id":"5b9a0213691cc490","x":-6780,"y":0,"width":6180,"height":4092,"type":"group","label":"Визуализация"},
+		{"id":"582d3f06f196cae8","type":"group","x":-3740,"y":160,"width":1740,"height":2671,"label":"Модули"},
+		{"id":"13210c648aef2d8e","type":"group","x":-6000,"y":160,"width":2200,"height":1980,"label":"Пропсы"},
+		{"id":"e5a36989fe8bbf0d","type":"group","x":-1940,"y":160,"width":1320,"height":1490,"label":"Референсы"},
+		{"id":"dceaed7e65fd7322","type":"file","file":"Проекты/WhosThere/Refs/Pasted image 20260223175805.png","x":-1920,"y":228,"width":400,"height":257},
+		{"id":"006a4877b199ec77","type":"file","file":"Проекты/WhosThere/3D/Пропсы Подъезд.md","x":-5980,"y":220,"width":400,"height":1100},
+		{"id":"7f14c42c23a381a2","type":"file","file":"Проекты/WhosThere/3D/Пропсы Ванная.md","x":-5540,"y":220,"width":400,"height":960},
+		{"id":"165426c91f620aee","type":"file","file":"Проекты/WhosThere/3D/Пропсы Спальня.md","x":-5100,"y":220,"width":400,"height":1900},
+		{"id":"6aad5266ad4c8a76","type":"file","file":"Проекты/WhosThere/3D/Пропсы Кухня.md","x":-4660,"y":220,"width":400,"height":1300},
+		{"id":"10c46a04286f14cf","type":"file","file":"Проекты/WhosThere/3D/Список 3D ассетов.md","x":-6760,"y":168,"width":709,"height":3904},
+		{"id":"149e262e6d3fe329","type":"file","file":"Проекты/WhosThere/Refs/Pasted image 20260223035901.png","x":-1480,"y":180,"width":399,"height":266},
+		{"id":"0dee0d2072939d8e","type":"file","file":"Проекты/WhosThere/Refs/Pasted image 20260223040100.png","x":-1480,"y":485,"width":399,"height":266},
+		{"id":"d4711a63a449481b","type":"file","file":"Проекты/WhosThere/3D/Модульный Подъезд.md","x":-3720,"y":233,"width":887,"height":2058},
+		{"id":"ea57d19fa357d647","type":"file","file":"Проекты/WhosThere/3D/Модульная Квартира.md","x":-2800,"y":233,"width":780,"height":2578},
+		{"id":"ff0d4c0df5cffac2","type":"file","file":"Проекты/WhosThere/Refs/Pasted image 20260223040440.png","x":-1920,"y":526,"width":400,"height":225},
+		{"id":"db7a55bc2fa6dc7c","type":"file","file":"Проекты/WhosThere/Refs/Pasted image 20260223040522.png","x":-1920,"y":825,"width":400,"height":225},
+		{"id":"7dd561c6c5187c26","type":"file","file":"Проекты/WhosThere/3D/Пропсы Коридор.md","x":-4220,"y":220,"width":400,"height":1160},
+		{"id":"e645b17298022b05","type":"file","file":"Проекты/WhosThere/Refs/Pasted image 20260223040538.png","x":-1480,"y":825,"width":400,"height":250},
+		{"id":"bb49d60c1079e0e9","type":"file","file":"Проекты/WhosThere/Refs/Pasted image 20260223040140.png","x":-1049,"y":508,"width":400,"height":243},
+		{"id":"63eb602232bf23b9","type":"file","file":"Проекты/WhosThere/Refs/Pasted image 20260223041102.png","x":-1049,"y":1145,"width":400,"height":225},
+		{"id":"71c189aefca6f8b2","type":"file","file":"Проекты/WhosThere/Refs/Pasted image 20260223040549.png","x":-1040,"y":838,"width":400,"height":225},
+		{"id":"a638f747feeeebd0","type":"file","file":"Проекты/WhosThere/Refs/Pasted image 20260223040848.png","x":-1920,"y":1125,"width":400,"height":225},
+		{"id":"173f5d626d26a1ac","type":"file","file":"Проекты/WhosThere/Refs/Pasted image 20260223040148.png","x":-1920,"y":1405,"width":400,"height":225},
+		{"id":"be09e9562d199108","type":"file","file":"Проекты/WhosThere/Refs/Pasted image 20260223041018.png","x":-1480,"y":1125,"width":400,"height":225},
+		{"id":"2a5baddce1f9c851","x":-160,"y":-17,"width":718,"height":1934,"type":"file","file":"Проекты/WhosThere/AI/Промт для генерации сценария.md"}
+	],
+	"edges":[]
+}

@@ -4,33 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "efe2f52de4aa94b6",
+        "id": "e6a195c48dce2252",
         "type": "tabs",
         "children": [
           {
-            "id": "7b52bc47240fc72d",
+            "id": "3309ab33f67d9eba",
             "type": "leaf",
             "state": {
-              "type": "diagrams-net",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Diagram"
-            }
-          },
-          {
-            "id": "c7ba472a454723d6",
-            "type": "leaf",
-            "state": {
-              "type": "image",
+              "type": "canvas",
               "state": {
-                "file": "Проект01/res/Pasted image 20251215220521.png"
+                "file": "Проекты/WhosThere/Board.canvas",
+                "viewState": {
+                  "x": -1966.384619837807,
+                  "y": 2059.5063604809466,
+                  "zoom": -2.7982147844742506
+                }
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20251215220521"
+              "icon": "lucide-layout-dashboard",
+              "title": "Board"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -180,62 +174,62 @@
       "univer:Univer": false
     }
   },
-  "active": "93c38509cbc4f9cd",
+  "active": "3309ab33f67d9eba",
   "lastOpenFiles": [
-    "Проект01/Лор.canvas",
-    "Проект01/res/Pasted image 20251215222208.png",
-    "Проект01/res/Pasted image 20251215222055.png",
-    "Проект01/res/Pasted image 20251215221923.png",
-    "Проект01/res/Pasted image 20251215221106.png",
-    "Проект01/res/Pasted image 20251215220521.png",
-    "Проект01/res/Pasted image 20251214174854.png",
-    "Проект01/res/Pasted image 20251215214209.png",
-    "Проект01/res/Pasted image 20251215214153.png",
-    "Проект01/res/Pasted image 20251214175016.png",
-    "Проект01/res/Pasted image 20251214174944.png",
-    "Планы.canvas",
-    "Блог/Блог.canvas",
-    "Блог",
-    "Проект01/Игра01.canvas",
-    "Проект01/Игра00.canvas",
-    "Vecxy/Архитектура.canvas",
-    "Excalidraw/Drawing 2025-11-27 21.53.43.excalidraw.md",
-    "Самообучение/Книги.canvas",
-    "BGA/Архитектура.canvas",
-    "BGA/Задачи.canvas",
+    "Проекты/WhosThere/Board.canvas",
+    "Проекты/WhosThere/AI/Промт для генерации сценария.md",
+    "Проекты/WhosThere/AI",
+    "Проекты/WhosThere/3D/Список 3D ассетов.md",
+    "Проекты/WhosThere/Refs/Pasted image 20260223040100.png",
+    "Проекты/WhosThere/Refs/Pasted image 20260223035901.png",
+    "Проекты/WhosThere/3D/Пропсы Кухня.md",
+    "Проекты/WhosThere/3D/Пропсы Коридор.md",
+    "Проекты/WhosThere/Diagram.svg",
+    "Проекты/WhosThere/Diagrams",
+    "Проекты/WhosThere/Refs",
+    "Проекты/WhosThere/3D/Модульная Квартира.md",
+    "Проекты/WhosThere/3D/Пропсы Ванная.md",
+    "Проекты/WhosThere/3D",
+    "Проекты/WhosThere/3D/Модульный Подъезд.md",
+    "Проекты/WhosThere/3D/Пропсы Подъезд.md",
+    "Проекты/WhosThere/3D/Пропсы Спальня.md",
+    "Проекты/WhosThere/Refs/Pasted image 20260223175805.png",
+    "Проекты/WhosThere/Refs/Pasted image 20260223041102.png",
+    "Проекты/WhosThere/Refs/Pasted image 20260223041018.png",
+    "Проекты/WhosThere/Refs/Pasted image 20260223040848.png",
+    "Проекты/WhosThere/Refs/Pasted image 20260223040549.png",
+    "Проекты/WhosThere/Refs/Pasted image 20260223040538.png",
+    "Проекты/WhosThere/Refs/Pasted image 20260223040522.png",
+    "Проекты/WhosThere/Diagram.svg.xml",
+    "Проекты/Настолка/Untitled.canvas",
+    "Проекты/Настолка/Drawing 2026-02-21 02.38.00.excalidraw.md",
+    "Проекты/WhosThere",
+    "Проекты/Настолка",
+    "Проекты/Проект01/Игра00.canvas",
+    "Проекты/Проект01/Лор.canvas",
+    "Проекты/Проект02/Untitled.canvas",
+    "Проекты/Проект02/1920.canvas",
+    "Проекты/Проект02/Untitled.md",
+    "Проекты/Проект02/Сюжет.md",
+    "Проекты/Проект02/res",
+    "Проекты/Проект02/19xx.psd",
+    "Проекты/Проект02/psC7D0.tmp",
+    "Проекты/Проект02/1920.md",
+    "Проекты/Проект01/Игра01.canvas",
     "Самообучение/Рендеринг.canvas",
-    "().md",
-    "Untitled.md",
-    "Самообучение/Untitled",
-    "Legacy/WebGL Build Identifier.md",
-    "Legacy/TMA.md",
+    "Самообучение/Книги.canvas",
+    "Самообучение/Английский.canvas",
     "Legacy/Test.md",
+    "Legacy/TMA.md",
+    "Legacy/WebGL Build Identifier.md",
+    "Legacy/Roadmap для веб-разработчика игр. Введение в наш стек и процессы.md",
+    "Excalidraw/Drawing 2025-11-27 21.53.43.excalidraw.md",
+    "().md",
     "Legacy/ИП/Трудовой договор.md",
     "Legacy/ИП/ИП. Доходы - Расходы. Управление.md",
     "Legacy/ИП/T1.md",
     "Legacy/Self/Storytelling/Диалоги.md",
     "Legacy/Self/Бокс/Мысли.md",
-    "Legacy/Self/Книги/Список книг.md",
-    "Legacy/Self/Книги/Список.md",
-    "Legacy/Self/Книги/Антиутопии.md",
-    "Vecxy/res",
-    "RAT/Архитектура.svg.xml",
-    "Проект01/res/2025-11-28 19-25-44.mp4",
-    "RAT",
-    "Test/Drawing 2025-11-27 22.19.18.excalidraw.md",
-    "Test/Untitled.usheet",
-    "Test/Diagram.svg.xml",
-    "Test/Тест1.md",
-    "Test",
-    "BGA/Drawing 2025-11-25 19.04.28.excalidraw.md",
-    "BGA/Untitled 1.md",
-    "BGA/Untitled.md",
-    "BGA/Drawing 2025-11-27 22.00.49.excalidraw.md",
-    "Тест.md",
-    "Vecxy",
-    "Проект01/Антиутопия.md",
-    "Проект01/Корпорация X.md",
-    "BGA/Drawing 2025-11-25 18.42.25.excalidraw.md",
-    "BGA/Drawing 2025-11-25 18.42.25.excalidraw.restored.md"
+    "Legacy/Self/Книги/Список книг.md"
   ]
 }

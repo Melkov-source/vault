@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"bc39ce3f52447bb4","x":-469,"y":-235,"width":1051,"height":215,"type":"group","label":"12/19/2025"},
+		{"id":"2f263a1f89b94c7a","x":-449,"y":-215,"width":429,"height":175,"color":"1","type":"text","text":"Hello! My name is Dmitry and I'm started learning English language. Today id first day. I'm Installed anki application for my personal computer, where learning with cards. My goals for 2026 year is good english of read tech books and watch video materials (films, tutorials and etc.)"},
+		{"id":"58ed8e129d584e7e","x":120,"y":-205,"width":442,"height":156,"color":"3","type":"text","text":"Hello! My name is Dmitry and I have started learning English. Today is my first day. I installed Anki on my PC for learning with cards. My goals for the year 2026 are good English for reading tech books and watching video materials such as films, tutorials and so on."}
+	],
+	"edges":[
+		{"id":"e39aa583c216a271","fromNode":"2f263a1f89b94c7a","fromSide":"right","toNode":"58ed8e129d584e7e","toSide":"left"}
+	]
+}
