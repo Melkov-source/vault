@@ -4,24 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e6a195c48dce2252",
+        "id": "2a04aedaa24b11fc",
         "type": "tabs",
         "children": [
           {
-            "id": "3309ab33f67d9eba",
+            "id": "a3fb683b58846ed1",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Проекты/WhosThere/Board.canvas",
-                "viewState": {
-                  "x": -1966.384619837807,
-                  "y": 2059.5063604809466,
-                  "zoom": -2.7982147844742506
-                }
+                "file": "Проекты/WhosThere/3D/Список моделей для первого этапа.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Board"
+              "icon": "lucide-file",
+              "title": "Список моделей для первого этапа"
             }
           }
         ]
@@ -174,25 +171,50 @@
       "univer:Univer": false
     }
   },
-  "active": "3309ab33f67d9eba",
+  "floating": {
+    "id": "b3d633171745c1b2",
+    "type": "floating",
+    "children": [
+      {
+        "id": "ec8c3fb66048d48b",
+        "type": "window",
+        "children": [
+          {
+            "id": "b97ee1e6b89fb03a",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "3309ab33f67d9eba",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Проекты/WhosThere/3D/Список 3D-моделей. Непроглядово 1987.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Список 3D-моделей. Непроглядово 1987"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 431,
+        "y": 51,
+        "width": 1610,
+        "height": 1010,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "a3fb683b58846ed1",
   "lastOpenFiles": [
+    "Проекты/WhosThere/3D/Список 3D-моделей. Непроглядово 1987.md",
+    "Проекты/WhosThere/3D/Список моделей для первого этапа.md",
     "Проекты/WhosThere/Board.canvas",
-    "Проекты/WhosThere/AI/Промт для генерации сценария.md",
-    "Проекты/WhosThere/AI",
-    "Проекты/WhosThere/3D/Список 3D ассетов.md",
-    "Проекты/WhosThere/Refs/Pasted image 20260223040100.png",
-    "Проекты/WhosThere/Refs/Pasted image 20260223035901.png",
-    "Проекты/WhosThere/3D/Пропсы Кухня.md",
-    "Проекты/WhosThere/3D/Пропсы Коридор.md",
-    "Проекты/WhosThere/Diagram.svg",
-    "Проекты/WhosThere/Diagrams",
-    "Проекты/WhosThere/Refs",
-    "Проекты/WhosThere/3D/Модульная Квартира.md",
-    "Проекты/WhosThere/3D/Пропсы Ванная.md",
-    "Проекты/WhosThere/3D",
-    "Проекты/WhosThere/3D/Модульный Подъезд.md",
-    "Проекты/WhosThere/3D/Пропсы Подъезд.md",
-    "Проекты/WhosThere/3D/Пропсы Спальня.md",
     "Проекты/WhosThere/Refs/Pasted image 20260223175805.png",
     "Проекты/WhosThere/Refs/Pasted image 20260223041102.png",
     "Проекты/WhosThere/Refs/Pasted image 20260223041018.png",
@@ -200,6 +222,22 @@
     "Проекты/WhosThere/Refs/Pasted image 20260223040549.png",
     "Проекты/WhosThere/Refs/Pasted image 20260223040538.png",
     "Проекты/WhosThere/Refs/Pasted image 20260223040522.png",
+    "Проекты/WhosThere/Refs/Pasted image 20260223040440.png",
+    "Проекты/WhosThere/Refs/Pasted image 20260223040148.png",
+    "Проекты/WhosThere/Refs/Pasted image 20260223040140.png",
+    "Проекты/WhosThere/AI/Промт для генерации сценария.md",
+    "Проекты/WhosThere/3D/Модульная Квартира.md",
+    "Проекты/WhosThere/3D/Модульный Подъезд.md",
+    "Проекты/WhosThere/3D/Пропсы Ванная.md",
+    "Проекты/WhosThere/3D/Пропсы Коридор.md",
+    "Проекты/WhosThere/3D/Пропсы Кухня.md",
+    "Проекты/WhosThere/3D/Пропсы Подъезд.md",
+    "Проекты/WhosThere/3D/Пропсы Спальня.md",
+    "Проекты/WhosThere/3D/Список 3D ассетов.md",
+    "Проекты/WhosThere/AI",
+    "Проекты/WhosThere/Diagrams",
+    "Проекты/WhosThere/Refs",
+    "Проекты/WhosThere/3D",
     "Проекты/WhosThere/Diagram.svg.xml",
     "Проекты/Настолка/Untitled.canvas",
     "Проекты/Настолка/Drawing 2026-02-21 02.38.00.excalidraw.md",
@@ -229,7 +267,6 @@
     "Legacy/ИП/ИП. Доходы - Расходы. Управление.md",
     "Legacy/ИП/T1.md",
     "Legacy/Self/Storytelling/Диалоги.md",
-    "Legacy/Self/Бокс/Мысли.md",
-    "Legacy/Self/Книги/Список книг.md"
+    "Legacy/Self/Бокс/Мысли.md"
   ]
 }
