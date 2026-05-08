@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Проекты/WhosThere/3D/Список моделей для первого этапа.md",
+                "file": "Проекты/WhosThere/3D/Минимальный 3D-план на месяц - спринты.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Список моделей для первого этапа"
+              "title": "Минимальный 3D-план на месяц - спринты"
             }
           }
         ]
@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Файловый менеджер"
             }
           },
           {
@@ -159,61 +159,28 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "bases:Создать новую базу": false,
       "note-annotations:Enable highlighting mode": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "univer:Univer": false
     }
   },
-  "floating": {
-    "id": "b3d633171745c1b2",
-    "type": "floating",
-    "children": [
-      {
-        "id": "ec8c3fb66048d48b",
-        "type": "window",
-        "children": [
-          {
-            "id": "b97ee1e6b89fb03a",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "3309ab33f67d9eba",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Проекты/WhosThere/3D/Список 3D-моделей. Непроглядово 1987.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Список 3D-моделей. Непроглядово 1987"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 431,
-        "y": 51,
-        "width": 1610,
-        "height": 1010,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "a3fb683b58846ed1",
   "lastOpenFiles": [
-    "Проекты/WhosThere/3D/Список 3D-моделей. Непроглядово 1987.md",
     "Проекты/WhosThere/3D/Список моделей для первого этапа.md",
+    "Проекты/WhosThere/3D/Минимальный 3D-план на месяц - спринты.md",
+    "Проекты/WhosThere/3D/Сюжетные предметы и важные пропсы.md",
+    "Проекты/WhosThere/3D/Персонажи для моделинга - PS2 стиль.md",
+    "Проекты/WhosThere/3D/Сводный список моделей - следующие локации.md",
+    "Проекты/WhosThere/3D/Пропсы Кухня.md",
+    "Проекты/WhosThere/НЕПРОГЛЯДОВО_29 апреля_предфинал.md",
+    "Проекты/WhosThere/3D/Список 3D-моделей. Непроглядово 1987.md",
     "Проекты/WhosThere/Board.canvas",
     "Проекты/WhosThere/Refs/Pasted image 20260223175805.png",
     "Проекты/WhosThere/Refs/Pasted image 20260223041102.png",
@@ -230,7 +197,6 @@
     "Проекты/WhosThere/3D/Модульный Подъезд.md",
     "Проекты/WhosThere/3D/Пропсы Ванная.md",
     "Проекты/WhosThere/3D/Пропсы Коридор.md",
-    "Проекты/WhosThere/3D/Пропсы Кухня.md",
     "Проекты/WhosThere/3D/Пропсы Подъезд.md",
     "Проекты/WhosThere/3D/Пропсы Спальня.md",
     "Проекты/WhosThere/3D/Список 3D ассетов.md",
@@ -262,11 +228,6 @@
     "Legacy/WebGL Build Identifier.md",
     "Legacy/Roadmap для веб-разработчика игр. Введение в наш стек и процессы.md",
     "Excalidraw/Drawing 2025-11-27 21.53.43.excalidraw.md",
-    "().md",
-    "Legacy/ИП/Трудовой договор.md",
-    "Legacy/ИП/ИП. Доходы - Расходы. Управление.md",
-    "Legacy/ИП/T1.md",
-    "Legacy/Self/Storytelling/Диалоги.md",
-    "Legacy/Self/Бокс/Мысли.md"
+    "().md"
   ]
 }
