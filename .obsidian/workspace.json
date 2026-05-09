@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "jspipe-video-tutorial-script.md",
+                "file": "BookTest/book_senka.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "jspipe-video-tutorial-script"
+              "title": "book_senka"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5,
-    "collapsed": true
+    "width": 265.5
   },
   "right": {
     "id": "1b94c8c4170db154",
@@ -174,8 +173,15 @@
   },
   "active": "a3fb683b58846ed1",
   "lastOpenFiles": [
-    "Legacy/BGA/Архитектура.canvas",
+    "BookTest/skeleton_senka.md",
+    "BookTest/book_senka.md",
+    "BookTest/book.md",
+    "BookTest/skeleton.md",
     "jspipe-video-tutorial-script.md",
+    "BookTest",
+    "Новая папка",
+    "JSPipe.Статья.md",
+    "Legacy/BGA/Архитектура.canvas",
     "Legacy/ИП/T1.md",
     "Legacy/ИП/Pasted image 20250911165629.png",
     "Legacy/ИП/Трудовой договор.md",
@@ -198,7 +204,6 @@
     "Legacy/HH/Резюме (Пробник) (2025 Apr 16).md",
     "Legacy/HH/Дмитрий Мелков. TiltShift.md",
     "Legacy/WebGL Build Identifier.md",
-    "JSPipe.Статья.md",
     "jspipe-habr-article-doc-expanded-backup.md",
     "Проекты/WhosThere/Board.canvas",
     "Проекты/WhosThere/3D/Персонажи для моделинга - PS2 стиль.md",
@@ -206,9 +211,6 @@
     "Проекты/WhosThere/3D/Сводный список моделей - следующие локации.md",
     "Проекты/WhosThere/3D/Список моделей для первого этапа.md",
     "Проекты/WhosThere/3D/Минимальный 3D-план на месяц - спринты.md",
-    "Проекты/WhosThere/3D/Пропсы Кухня.md",
-    "Проекты/WhosThere/НЕПРОГЛЯДОВО_29 апреля_предфинал.md",
-    "Проекты/WhosThere/3D/Список 3D-моделей. Непроглядово 1987.md",
     "Проекты/WhosThere/Refs/Pasted image 20260223175805.png",
     "Проекты/WhosThere/Refs/Pasted image 20260223041102.png",
     "Проекты/WhosThere/Refs/Pasted image 20260223041018.png",
@@ -226,9 +228,6 @@
     "Проекты/WhosThere",
     "Проекты/Настолка",
     "Проекты/Проект02/res",
-    "Проекты/Проект02/19xx.psd",
-    "Проекты/Проект02/psC7D0.tmp",
-    "Самообучение/Рендеринг.canvas",
-    "Самообучение/Книги.canvas"
+    "Самообучение/Рендеринг.canvas"
   ]
 }

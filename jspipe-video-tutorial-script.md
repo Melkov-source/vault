@@ -1,99 +1,113 @@
-# JSPipe для Unity WebGL: сценарий видео-туториала
+# Сценарий видео: JSPipe для Unity WebGL без боли
 
-> Формат: обучающее видео на 12-18 минут.
+> Формат: живой туториал на 10-14 минут.
 >
-> Цель: показать, зачем нужен JSPipe, как его подключить, как сделать первый обмен сообщениями между C# и TypeScript, как использовать npm-зависимость и что происходит при WebGL build.
+> Настроение: не лекция и не чтение документации. Разработчик показывает реальную боль Unity WebGL interop, быстро собирает рабочий пример и по пути объясняет, почему JSPipe устроен именно так.
 
-## 0. Название видео
+## Название
 
-**Unity WebGL + TypeScript + npm: настраиваем JSPipe и делаем первый bridge между C# и браузером**
+**Unity WebGL + TypeScript + npm: хватит страдать с `.jslib`**
 
-Альтернативы:
+Другие варианты:
 
-- **Как подключить TypeScript и npm к Unity WebGL через JSPipe**
-- **Unity WebGL без боли: C# вызывает TypeScript, TypeScript отвечает в Unity**
-- **JSPipe tutorial: bridge между Unity C# и browser runtime**
+- **C# вызывает TypeScript в Unity WebGL. Без ручного ада**
+- **Как я подружил Unity WebGL с npm**
+- **JSPipe за 10 минут: мост между Unity и браузером**
 
-## 1. Вступление, 0:00-0:50
+## Главная мысль видео
 
-### На экране
+Не надо продавать ассет в лоб.
 
-- Unity project с WebGL target.
-- Рядом открыть браузер или страницу WebGL build.
-- Коротко показать Asset Store page или package folder в проекте.
+Видео должно звучать так:
 
-### Текст ведущего
+> "Вот типичная боль Unity WebGL. Вот почему обычный `.jslib` быстро становится тесным. А теперь я покажу, как сделать то же самое через нормальный модульный bridge: C# вызывает TypeScript, TypeScript отвечает, npm-пакет подключается, WebGL build все собирает."
 
-Всем привет. В этом видео я покажу, как использовать JSPipe - ассет для Unity WebGL, который помогает связать C#-код внутри Unity с TypeScript и npm-кодом в браузере.
-
-Если вы уже делали WebGL-интеграции в Unity, вы скорее всего сталкивались с `.jslib`, `DllImport("__Internal")`, `SendMessage`, ручной сериализацией и странными ошибками, которые всплывают уже после WebGL build.
-
-JSPipe решает эту задачу чуть иначе: вместо набора глобальных JS-функций он дает модульный bridge. C# и TypeScript общаются через модули, методы, payload, `Notify` и `Call`.
-
-Сегодня мы сделаем минимальный пример: Unity вызовет TypeScript-метод, TypeScript вернет ответ, а затем TypeScript отправит событие обратно в Unity.
-
-## 2. Что мы соберем, 0:50-1:30
+## 0:00-0:25 - Хук
 
 ### На экране
 
-Показать итоговую схему или слайд:
+Быстро показать `.jslib` или псевдокод с глобальной функцией, потом рядом TypeScript/npm import.
 
-```mermaid
-flowchart LR
-    Unity["Unity C#"] --> CModule["GreetingModule C#"]
-    CModule --> Pipe["JSPipe"]
-    Pipe --> TSModule["GreetingModule TS"]
-    TSModule --> Browser["Browser / npm"]
-    Browser --> TSModule
-    TSModule --> Pipe
-    Pipe --> CModule
-```
+### Реплика
 
-### Текст ведущего
+Если вы когда-нибудь пытались подключить нормальный npm-пакет к Unity WebGL, вы знаете этот момент.
 
-В конце у нас будет модуль `Greeting`.
+Сначала у вас один маленький `.jslib`.
 
-На C# стороне он сможет вызвать TypeScript-метод `GetName` и получить ответ.
+Потом второй.
 
-На TypeScript стороне тот же модуль сможет отправить в Unity событие `SayHello`.
+Потом callback id.
 
-Потом я покажу, где настраиваются npm-зависимости, чем отличаются `main` и `template` entry points, и как JSPipe встраивается в WebGL build.
+Потом JSON строкой.
 
-## 3. Коротко о модели JSPipe, 1:30-2:30
+Потом `Promise`, который где-то умер, а Unity делает вид, что ничего не произошло.
+
+В этом видео я покажу другой подход: C# и TypeScript будут общаться через модули, без свалки глобальных функций.
+
+## 0:25-0:50 - Что получится в конце
 
 ### На экране
 
-Слайд или текст в редакторе:
+Показать финальный лог или заготовленный результат:
 
 ```text
-Module name: Greeting
-
-C#:
-  RegisterHandler("SayHello")
-  Call("GetName")
-
-TypeScript:
-  registerHandler("GetName")
-  notify("SayHello")
+Name from TypeScript: Player from TypeScript
+Hello from TypeScript: Browser runtime
 ```
 
-### Текст ведущего
+### Реплика
 
-Главная идея JSPipe - не вызывать отдельные глобальные JS-функции, а общаться через модули.
+За несколько минут мы сделаем две вещи.
 
-Модуль должен существовать на обеих сторонах и называться одинаково. Например, `Greeting`.
+Unity вызовет TypeScript и получит ответ.
 
-Внутри модуля есть методы. Для событий без ответа используется `Notify`. Для запросов, где нужен результат, используется `Call`.
+Потом TypeScript сам отправит сообщение обратно в Unity.
 
-То есть если C# вызывает `Call("GetName")`, TypeScript-сторона должна зарегистрировать handler `GetName` в модуле с тем же именем.
+А в конце я покажу, куда подключаются npm-зависимости и почему тут есть отдельная история с WebGL template.
 
-Это похоже на маленький RPC-слой между Unity runtime и browser runtime.
-
-## 4. Инициализация JSPipe в Unity, 2:30-3:30
+## 0:50-1:30 - Минимальная идея JSPipe
 
 ### На экране
 
-Unity Project window. Создать или открыть `Bootstrap.cs`.
+Большой простой текст:
+
+```text
+Greeting.GetName()
+Greeting.SayHello()
+```
+
+Потом:
+
+```text
+C# module name: Greeting
+TS module name: Greeting
+```
+
+### Реплика
+
+Главная идея JSPipe простая: мы не делаем сто глобальных JS-функций.
+
+Мы заводим модуль.
+
+Например, `Greeting`.
+
+На C# стороне есть `Greeting`.
+
+На TypeScript стороне тоже есть `Greeting`.
+
+Если имена совпали, они могут обмениваться сообщениями.
+
+Нужно просто отправить событие - используем `Notify`.
+
+Нужен ответ - используем `Call`.
+
+Все. Это уже сильно приятнее, чем археология в `.jslib`.
+
+## 1:30-2:10 - Включаем JSPipe в Unity
+
+### На экране
+
+Unity, файл `Bootstrap.cs`.
 
 ### Код
 
@@ -112,27 +126,21 @@ public class Bootstrap : MonoBehaviour
 }
 ```
 
-### Действия
+### Реплика
 
-1. Создать GameObject `Bootstrap`.
-2. Повесить на него компонент `Bootstrap`.
-3. Сохранить сцену.
+Начинаем с Unity.
 
-### Текст ведущего
+Нам нужно один раз поднять host на C# стороне.
 
-Сначала нужно инициализировать bridge на C# стороне.
+Да, тут стоит `UNITY_WEBGL && !UNITY_EDITOR`. Это нормально: JSPipe нужен именно в WebGL build. В Editor обычно делают mock, но сегодня мы не будем утаскивать демо в сторону.
 
-Для этого достаточно один раз вызвать `JsPipeHost.Init`.
+Создаем объект `Bootstrap`, вешаем скрипт, забываем про него.
 
-Я оборачиваю вызов в `UNITY_WEBGL && !UNITY_EDITOR`, потому что JSPipe работает именно в WebGL build. В Editor обычно делают mock-слой или просто не вызывают browser integration.
-
-Теперь при запуске WebGL build JSPipe host будет готов принимать и отправлять пакеты.
-
-## 5. C# модуль, 3:30-5:20
+## 2:10-3:40 - Пишем C# модуль
 
 ### На экране
 
-Создать `GreetingModule.cs`.
+Файл `GreetingModule.cs`.
 
 ### Код
 
@@ -173,23 +181,31 @@ public class GreetingModule : JSPipeModule
 }
 ```
 
-### Текст ведущего
+### Реплика
 
-Теперь создадим первый модуль на C# стороне.
+Теперь сам модуль.
 
-Он наследуется от `JSPipeModule`, а его имя - `Greeting`. Это имя важно: TypeScript-модуль должен называться точно так же.
+Самая важная строка здесь:
 
-В конструкторе мы регистрируем handler `SayHello`. Это метод, который сможет вызвать TypeScript.
+```csharp
+public override string Name => "Greeting";
+```
 
-А метод `GetUserName` делает обратное: вызывает TypeScript handler `GetName` и ждет ответ.
+Это имя - контракт. TypeScript-модуль должен называться так же.
 
-Обратите внимание на разделение: входящий вызов регистрируется через `RegisterHandler`, исходящий request делается через `Call`.
+Дальше мы говорим: если с web-стороны придет `SayHello`, вызови `OnSayHello`.
 
-## 6. Использование C# модуля из MonoBehaviour, 5:20-6:30
+А метод `GetUserName` делает обратное: он вызывает TypeScript-метод `GetName` и ждет ответ.
+
+То есть в одном классе у нас сразу две стороны общения:
+
+входящий handler и исходящий call.
+
+## 3:40-4:20 - Запускаем вызов из Unity
 
 ### На экране
 
-Создать `GreetingDemo.cs`.
+Файл `GreetingDemo.cs`.
 
 ### Код
 
@@ -199,11 +215,11 @@ using UnityEngine;
 
 public class GreetingDemo : MonoBehaviour
 {
-    private GreetingModule _greetingModule;
+    private GreetingModule _greeting;
 
     private void Awake()
     {
-        _greetingModule = new GreetingModule();
+        _greeting = new GreetingModule();
     }
 
     private async void Start()
@@ -211,28 +227,24 @@ public class GreetingDemo : MonoBehaviour
 #if UNITY_WEBGL && !UNITY_EDITOR
         await UniTask.Delay(1000);
 
-        var name = await _greetingModule.GetUserName();
+        var name = await _greeting.GetUserName();
         Debug.Log($"Name from TypeScript: {name}");
 #endif
     }
 }
 ```
 
-### Действия
+### Реплика
 
-1. Создать GameObject `GreetingDemo`.
-2. Повесить компонент.
-3. Сохранить сцену.
+Теперь используем модуль.
 
-### Текст ведущего
+Создаем его в `Awake`. JSPipe зарегистрирует модуль автоматически.
 
-Теперь создадим MonoBehaviour, который будет использовать наш модуль.
+В `Start` вызываем `GetUserName`.
 
-В `Awake` мы создаем экземпляр `GreetingModule`. Модуль регистрируется автоматически, поэтому отдельно добавлять его в host не нужно.
+Для демо я ставлю небольшую задержку, чтобы не усложнять разговор lifecycle-событиями. В боевом проекте лучше завязаться на готовность bridge.
 
-В `Start` немного подождем и вызовем `GetUserName`. Для реального проекта лучше завязаться на состояние готовности bridge, но для первого демо задержки достаточно, чтобы не смешивать сразу все темы.
-
-## 7. Настройка TypeScript окружения, 6:30-7:40
+## 4:20-5:10 - Поднимаем TypeScript окружение
 
 ### На экране
 
@@ -242,32 +254,31 @@ Unity menu:
 Tools -> JSPipe -> Install ENV
 ```
 
-Потом Project window:
+Потом показать файлы:
 
 ```text
 Assets/upackage.json
-Assets/tsconfig.json
 Assets/Index.ts
-.npm/
+Assets/tsconfig.json
 ```
 
-### Текст ведущего
+### Реплика
 
-Теперь нужна web-сторона.
+Теперь web-сторона.
 
-JSPipe добавляет меню `Tools -> JSPipe`. Команда `Install ENV` создает TypeScript/npm окружение для проекта.
+И вот здесь JSPipe делает приятную вещь: он не заставляет нас писать весь JavaScript в `.jslib`.
 
-После выполнения появляются `upackage.json`, `tsconfig.json`, entry point `Index.ts` и локальная `.npm` директория с зависимостями.
+Идем в `Tools -> JSPipe -> Install ENV`.
 
-`upackage.json` здесь играет роль конфигурации web-части. В нем можно указывать entry points и npm dependencies.
+После этого в проекте появляется TypeScript/npm окружение: `upackage.json`, `tsconfig`, entry point и локальные зависимости.
 
-Для первого примера нам нужен `main` entry point - код, который будет собран в JS Pre и выполнится рядом с Unity/WebAssembly runtime.
+Нас сейчас интересует `Index.ts`. Это место, где мы напишем TypeScript-модуль.
 
-## 8. TypeScript модуль, 7:40-9:10
+## 5:10-6:30 - Пишем TypeScript модуль
 
 ### На экране
 
-Открыть `Assets/Index.ts`.
+Файл `Assets/Index.ts`.
 
 ### Код
 
@@ -299,84 +310,66 @@ setTimeout(() => {
 }, 2000);
 ```
 
-### Текст ведущего
+### Реплика
 
-Теперь создаем такой же модуль на TypeScript стороне.
+Теперь пишем зеркальную часть в TypeScript.
 
-Ключевая строка здесь - `super("Greeting")`. Имя должно совпадать с C# модулем.
+И снова главная строка:
 
-Дальше мы регистрируем handler `GetName`. Именно его вызовет C# через `Call`.
+```ts
+super("Greeting");
+```
 
-И еще добавим метод `sayHello`, который отправляет уведомление `SayHello` обратно в Unity. На C# стороне мы уже зарегистрировали handler с таким именем.
+Имя совпадает с C# модулем.
 
-В конце создаем модуль и через пару секунд отправляем событие в Unity.
+Регистрируем `GetName`. Это тот метод, который C# вызовет через `Call`.
 
-## 9. Первый WebGL build, 9:10-10:30
+А через `sayHello` отправляем `Notify("SayHello")` обратно в Unity.
+
+То есть сейчас у нас уже есть двусторонняя связь:
+
+C# спрашивает имя.
+
+TypeScript отвечает.
+
+TypeScript отправляет привет.
+
+C# принимает.
+
+## 6:30-7:30 - Собираем WebGL и смотрим результат
 
 ### На экране
 
-Unity Build Settings:
+Unity Build Settings -> WebGL -> Build.
+
+Потом браузер и console/logs.
+
+### Реплика
+
+Собираем WebGL.
+
+Во время сборки JSPipe соберет TypeScript, подготовит JS Pre, соберет WebGL template и подключит нужные скрипты.
+
+Нам не нужно руками копировать bundle, вставлять script tag и помнить, какой файл куда положить.
+
+Открываем билд.
+
+И вот результат:
 
 ```text
-Platform: WebGL
-Build
+Name from TypeScript: Player from TypeScript
+Hello from TypeScript: Browser runtime
 ```
 
-Показать Console logs после build.
+Это маленькое демо, но в нем уже есть главное: C# и TypeScript общаются не через случайные глобальные функции, а через модульный bridge.
 
-### Текст ведущего
-
-Теперь собираем проект под WebGL.
-
-Во время сборки JSPipe подготовит JavaScript-часть: соберет `main` entry point в `.jspre`, подготовит WebGL template и подключит нужные скрипты.
-
-После build временные артефакты будут удалены. Это нормально: JSPipe создает их на время сборки, чтобы проект не засорялся generated-файлами.
-
-Открываем билд в браузере и смотрим console.
-
-Мы должны увидеть два события:
-
-1. Unity вызвала TypeScript `GetName` и получила имя.
-2. TypeScript отправил `SayHello`, а Unity вывела сообщение в `Debug.Log`.
-
-## 10. Что происходит под капотом, 10:30-11:40
+## 7:30-8:40 - Зачем тут npm
 
 ### На экране
 
-Схема:
+Открыть `upackage.json`.
 
-```mermaid
-sequenceDiagram
-    participant C as Unity C#
-    participant CM as C# GreetingModule
-    participant H as JSPipe Host
-    participant TM as TS GreetingModule
-
-    C->>CM: GetUserName()
-    CM->>H: Call("GetName")
-    H->>TM: route packet to Greeting.GetName
-    TM-->>H: { Name: "Player from TypeScript" }
-    H-->>CM: complete pending call
-    CM-->>C: string result
-```
-
-### Текст ведущего
-
-Под капотом это не прямой вызов C# -> JS-функция.
-
-JSPipe формирует packet: в нем есть request id, имя модуля, имя метода и payload.
-
-Host отправляет packet на другую сторону, там он маршрутизируется в модуль `Greeting`, вызывается handler `GetName`, результат возвращается обратно и завершает ожидающий `Call`.
-
-Именно поэтому такая модель хорошо подходит для async-кода. TypeScript handler может вернуть результат сразу, а может сделать `await fetch`, вызвать npm SDK или дождаться browser API.
-
-## 11. Добавляем npm-зависимость, 11:40-13:20
-
-### На экране
-
-Открыть `Assets/upackage.json`.
-
-### Пример
+### Код
 
 ```json
 {
@@ -388,93 +381,75 @@ Host отправляет packet на другую сторону, там он �
 }
 ```
 
-### Действия
+### Реплика
 
-1. Добавить dependency.
-2. Запустить `Tools -> JSPipe -> Install ENV`.
-3. Обновить `Index.ts`.
+Теперь вопрос: а зачем вообще весь этот TypeScript/npm слой?
 
-### Код
+Потому что в реальном WebGL-проекте вы почти наверняка захотите подключить готовую web-библиотеку.
+
+Analytics SDK.
+
+Wallet connector.
+
+SDK платежей.
+
+Валидацию.
+
+Crypto.
+
+QR generator.
+
+Что угодно из npm.
+
+В `upackage.json` можно добавить зависимости. После изменения запускаем `Install ENV`, и дальше импортируем пакет прямо в TypeScript.
+
+Например:
 
 ```ts
 import { z } from "zod";
-import { JSPipeModule } from "./jspipe/JSPipeModule";
-
-const NameRequest = z.object({
-  Name: z.string()
-});
-
-class GreetingModule extends JSPipeModule {
-  constructor() {
-    super("Greeting");
-
-    this.registerHandler("GetName", () => {
-      return {
-        Name: "Player from npm-enabled TypeScript"
-      };
-    });
-  }
-
-  public sayHello(name: string): void {
-    const payload = NameRequest.parse({ Name: name });
-    this.notify("SayHello", payload);
-  }
-}
-
-const greeting = new GreetingModule();
-greeting.sayHello("Validated browser payload");
 ```
 
-### Текст ведущего
+И это уже нормальный web-код, а не минифицированный кусок, случайно вставленный в `.jslib`.
 
-Теперь покажем, зачем вообще нужен npm.
-
-В `upackage.json` можно добавить зависимости почти как в обычном `package.json`.
-
-После изменения конфигурации нужно снова выполнить `Install ENV`, чтобы зависимости установились.
-
-Для примера подключим `zod` и провалидируем payload перед отправкой в Unity.
-
-В реальном проекте вместо `zod` здесь может быть analytics SDK, wallet connector, SDK платежей, crypto library, QR generator или любой другой browser-oriented npm package.
-
-## 12. Template entry point, 13:20-14:40
+## 8:40-9:50 - `main` и `template`: две разные жизни JavaScript
 
 ### На экране
 
-Показать:
+Простая схема:
 
 ```text
-Assets/JSPipeTemplate/index.html
-Assets/Template.ts
-Assets/upackage.json
+template -> runs in HTML page before Unity
+main     -> runs as JSPre near Unity/WebAssembly
 ```
 
-### Текст ведущего
+### Реплика
 
-У JSPipe есть еще одна важная часть - WebGL template.
+Еще одна важная штука: в Unity WebGL есть не один "JavaScript".
 
-Не весь JavaScript должен выполняться рядом с Unity runtime. Иногда код нужен раньше: при загрузке страницы, до запуска WebAssembly.
+Есть код страницы. Он должен выполниться рано: до запуска Unity, до WebAssembly, пока грузится HTML.
 
-Для этого в `upackage.json` есть `template` entry point.
+А есть код bridge-слоя. Он должен жить рядом с Unity runtime и регистрировать модули.
 
-Код из `template` собирается и вставляется в итоговый `index.html`. Он подходит для page-level логики: wrapper UI, ранний bootstrap, настройка страницы, работа с HTML до запуска Unity.
+Поэтому в JSPipe есть два entry point.
 
-А `main` entry point собирается в `.jspre` и используется для bridge/runtime логики.
+`template` - для HTML-страницы.
 
-Это разделение помогает не смешивать HTML-обвязку и код, который общается с Unity.
+`main` - для JS Pre и общения с Unity.
 
-## 13. Ошибки и диагностика, 14:40-15:50
+Если не разделять эти две зоны, очень быстро начинается классика: "а почему этот объект undefined, если вчера работало?"
+
+## 9:50-10:40 - Ошибки и диагностика
 
 ### На экране
 
-Показать C# override.
+Показать короткий override.
 
 ### Код
 
 ```csharp
 public override void OnRxPacket(JsPipePacket packet)
 {
-    Debug.Log($"[{Name}] Packet received: {packet.Id}");
+    Debug.Log($"[{Name}] Packet: {packet.Id}");
 
     base.OnRxPacket(packet);
 
@@ -485,144 +460,136 @@ public override void OnRxPacket(JsPipePacket packet)
 }
 ```
 
-### Текст ведущего
+### Реплика
 
-Когда bridge используется в реальном проекте, важно видеть, что через него проходит.
+Когда bridge становится частью проекта, хочется понимать, что по нему ходит.
 
-В JSPipe можно переопределить `OnRxPacket` у модуля и добавить логирование, метрики или централизованную обработку ошибок.
+Для этого у модуля можно переопределить `OnRxPacket`.
 
-Главное - вызвать `base.OnRxPacket(packet)`, чтобы стандартная обработка пакета продолжила работать.
+Туда удобно добавить логирование, метрики, трассировку или обработку ошибок.
 
-Это полезно, когда нужно понять: модуль не зарегистрирован, handler упал, payload неверный или ответ просто не пришел.
+Главное - не забыть `base.OnRxPacket(packet)`, иначе вы сами же перехватите пакет и не дадите JSPipe его обработать.
 
-## 14. Краткое резюме, 15:50-16:40
+## 10:40-11:40 - Самые частые ошибки
 
 ### На экране
 
-Слайд:
+Список крупным текстом.
 
 ```text
-JSPipe:
-
-- C# <-> TypeScript bridge
-- modules by name
-- Notify for events
-- Call for request/response
-- npm dependencies through upackage.json
-- main -> JSPre
-- template -> HTML page script
-- WebGL build integration
+1. Module names do not match
+2. Handler name typo
+3. Forgot Install ENV
+4. Trying to run browser bridge in Editor
+5. Template file missing
 ```
 
-### Текст ведущего
+### Реплика
 
-Подведем итог.
+Пять вещей, на которых проще всего споткнуться.
 
-JSPipe нужен не для того, чтобы один раз вызвать JavaScript из Unity. Для этого хватит `.jslib`.
+Первое: имя модуля. Если в C# `Greeting`, а в TypeScript `Greting` без второй `e`, ничего хорошего не будет.
 
-Он полезен, когда Unity WebGL становится частью web-приложения: когда нужны TypeScript, npm SDK, async-вызовы, события, HTML template и предсказуемый build flow.
+Второе: имя handler. `Call("GetName")` должен совпадать с `registerHandler("GetName")`.
 
-Модель такая:
+Третье: добавили npm dependency, но забыли снова выполнить `Install ENV`.
 
-модули синхронизируются по имени, `Notify` отправляет события, `Call` делает request/response, TypeScript-код собирается через JSPipe environment, а WebGL build получает уже подготовленные JS artifacts.
+Четвертое: пытаетесь проверить browser bridge в Editor. Для этого лучше делать mock.
 
-## 15. Финал, 16:40-17:10
+Пятое: проблемы с WebGL template. Для нормального flow должен быть `JSPipeTemplate/index.html`.
+
+## 11:40-12:30 - Финал
 
 ### На экране
 
-- Unity Console с успешными логами.
-- Browser console.
-- Asset page или project folder.
+Вернуться к коду C# и TypeScript рядом.
 
-### Текст ведущего
+### Реплика
 
-На этом базовая настройка JSPipe готова.
+Итого.
 
-В следующих видео можно отдельно разобрать более сложные сценарии: авторизацию через browser SDK, wallet connection, работу с template UI, мокирование в Editor и генерацию контрактов между C# и TypeScript.
+Если вам нужно один раз вызвать JavaScript из Unity, `.jslib` вполне нормальный вариант.
 
-Если вы используете Unity WebGL и уже упирались в `.jslib`, async или npm-интеграции, попробуйте такой модульный подход. Он не отменяет особенности WebGL, но делает границу между Unity и браузером намного понятнее.
+Но если Unity WebGL становится частью web-приложения, появляются async, npm, browser SDK, template-код и несколько интеграций - лучше думать не отдельными JS-функциями, а bridge-слоем.
 
-## 16. Чеклист для записи
+JSPipe как раз про это:
 
-- Подготовить чистый Unity проект с установленным JSPipe.
-- Переключить platform на WebGL заранее.
-- Убедиться, что `Cysharp.Threading.Tasks` доступен, если примеры используют `UniTask`.
-- Проверить, что `Tools -> JSPipe -> Install ENV` проходит без ошибок.
-- Подготовить рабочий `Assets/JSPipeTemplate/index.html`.
-- Проверить первый build до записи.
-- Открыть browser console и Unity console.
-- Подготовить zoom на код, чтобы зрителю было видно имена модулей и handlers.
-- Не уходить глубоко в build internals в первом видео.
+модули вместо глобальной свалки,
 
-## 17. Возможные ошибки во время демо
+`Notify` для событий,
 
-### Не совпадает имя модуля
+`Call` для request/response,
 
-Симптом: C# вызывает метод, но TypeScript handler не находится.
+TypeScript и npm как нормальная часть проекта,
 
-Что сказать:
+и сборка, встроенная в WebGL build flow.
 
-> Самая частая ошибка - разные имена модулей. Если на C# `Name => "Greeting"`, то в TypeScript должен быть `super("Greeting")`.
+На этом все. В следующем видео можно взять уже реальный сценарий: например, авторизацию через browser SDK или wallet connection из Unity WebGL.
 
-### Handler не зарегистрирован
+## Ритм монтажа
 
-Симптом: module есть, method не найден.
+Держать видео бодрым:
 
-Что сказать:
+- не читать все строки кода;
+- проговаривать только ключевые места;
+- после каждого куска кода сразу объяснять, зачем он нужен;
+- чаще возвращаться к результату в console;
+- не углубляться в build internals;
+- documentation details оставить для описания под видео.
 
-> Имя метода тоже является частью контракта. `Call("GetName")` должен соответствовать `registerHandler("GetName", ...)`.
+## Что подготовить до записи
 
-### Забыли `Install ENV` после изменения dependencies
+- Unity проект с установленным JSPipe.
+- WebGL platform уже выбрана.
+- `Cysharp.Threading.Tasks` доступен, если используется `UniTask`.
+- `Install ENV` заранее проверен.
+- Минимальный `JSPipeTemplate/index.html` существует.
+- Первый WebGL build уже один раз успешно собран.
+- Открыт редактор кода с крупным шрифтом.
+- Browser console готова.
+- Unity Console очищена перед записью.
 
-Симптом: npm package не находится при сборке.
+## Описание под видео
 
-Что сказать:
+В этом видео показываю JSPipe - bridge для Unity WebGL, который позволяет связать C# внутри Unity с TypeScript/npm-кодом в браузере.
 
-> После изменения `upackage.json` нужно снова выполнить `Tools -> JSPipe -> Install ENV`, чтобы зависимости реально установились.
+Что внутри:
 
-### Код запустили в Editor
+- первый `JSPipeModule` на C#;
+- зеркальный модуль на TypeScript;
+- `Call` для request/response;
+- `Notify` для событий;
+- подключение npm-зависимостей через `upackage.json`;
+- разница между `main` и `template`;
+- базовая диагностика через `OnRxPacket`.
 
-Симптом: browser integration не работает.
+## Короткая версия для Shorts
 
-Что сказать:
+Unity WebGL уже работает в браузере.
 
-> JSPipe рассчитан на WebGL build. В Editor стоит использовать mock или оборачивать вызовы в `UNITY_WEBGL && !UNITY_EDITOR`.
+Но если вы хотите подключить npm-пакет, SDK аналитики или wallet provider, обычный `.jslib` быстро превращается в кашу.
 
-### Template не найден
+В JSPipe C# и TypeScript общаются через модули.
 
-Симптом: build template падает.
-
-Что сказать:
-
-> В проекте должен быть `Assets/JSPipeTemplate/index.html`. Для первого демо лучше подготовить его заранее.
-
-## 18. Сценарий короткого Shorts/Reels на 60 секунд
-
-### Текст
-
-Unity WebGL уже работает в браузере, но нормально общаться с TypeScript и npm-кодом не так удобно.
-
-Обычно все начинается с `.jslib`, а потом появляются async, JSON, callbacks, SDK, browser API и ошибки в console.
-
-JSPipe решает это через модульный bridge.
-
-На C# стороне:
+C#:
 
 ```csharp
 public override string Name => "Greeting";
 var response = await Call<NameResponse>("GetName");
 ```
 
-На TypeScript стороне:
+TypeScript:
 
 ```ts
 super("Greeting");
 this.registerHandler("GetName", () => ({ Name: "Player" }));
 ```
 
-Модули совпадают по имени, методы вызываются через `Call`, события отправляются через `Notify`.
+Имена модулей совпали - bridge работает.
 
-А TypeScript и npm-зависимости собираются прямо в WebGL build flow.
+Нужно событие - `Notify`.
 
-Если Unity WebGL у вас не просто игра в iframe, а часть web-приложения, такой bridge сильно упрощает жизнь.
+Нужен ответ - `Call`.
+
+А npm-зависимости подключаются как нормальный TypeScript-код.
 
