@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "jspipe-habr-article-draft.md",
+                "file": "JSPipe.Статья.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "jspipe-habr-article-draft"
+              "title": "JSPipe.Статья"
             }
           }
         ]
@@ -173,8 +173,9 @@
   },
   "active": "a3fb683b58846ed1",
   "lastOpenFiles": [
+    "jspipe-habr-article-doc-expanded-backup.md",
+    "JSPipe.Статья.md",
     "Проекты/WhosThere/Board.canvas",
-    "jspipe-habr-article-draft.md",
     "Проекты/Проект01/Игра00.canvas",
     "Проекты/Проект01/Игра01.canvas",
     "Проекты/WhosThere/3D/Персонажи для моделинга - PS2 стиль.md",
