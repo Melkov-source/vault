@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Проекты/WhosThere/3D/Минимальный 3D-план на месяц - спринты.md",
+                "file": "jspipe-habr-article-draft.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Минимальный 3D-план на месяц - спринты"
+              "title": "jspipe-habr-article-draft"
             }
           }
         ]
@@ -173,15 +173,18 @@
   },
   "active": "a3fb683b58846ed1",
   "lastOpenFiles": [
+    "Проекты/WhosThere/Board.canvas",
+    "jspipe-habr-article-draft.md",
+    "Проекты/Проект01/Игра00.canvas",
+    "Проекты/Проект01/Игра01.canvas",
+    "Проекты/WhosThere/3D/Персонажи для моделинга - PS2 стиль.md",
+    "Проекты/WhosThere/3D/Сюжетные предметы и важные пропсы.md",
+    "Проекты/WhosThere/3D/Сводный список моделей - следующие локации.md",
     "Проекты/WhosThere/3D/Список моделей для первого этапа.md",
     "Проекты/WhosThere/3D/Минимальный 3D-план на месяц - спринты.md",
-    "Проекты/WhosThere/3D/Сюжетные предметы и важные пропсы.md",
-    "Проекты/WhosThere/3D/Персонажи для моделинга - PS2 стиль.md",
-    "Проекты/WhosThere/3D/Сводный список моделей - следующие локации.md",
     "Проекты/WhosThere/3D/Пропсы Кухня.md",
     "Проекты/WhosThere/НЕПРОГЛЯДОВО_29 апреля_предфинал.md",
     "Проекты/WhosThere/3D/Список 3D-моделей. Непроглядово 1987.md",
-    "Проекты/WhosThere/Board.canvas",
     "Проекты/WhosThere/Refs/Pasted image 20260223175805.png",
     "Проекты/WhosThere/Refs/Pasted image 20260223041102.png",
     "Проекты/WhosThere/Refs/Pasted image 20260223041018.png",
@@ -209,7 +212,6 @@
     "Проекты/Настолка/Drawing 2026-02-21 02.38.00.excalidraw.md",
     "Проекты/WhosThere",
     "Проекты/Настолка",
-    "Проекты/Проект01/Игра00.canvas",
     "Проекты/Проект01/Лор.canvas",
     "Проекты/Проект02/Untitled.canvas",
     "Проекты/Проект02/1920.canvas",
@@ -219,15 +221,12 @@
     "Проекты/Проект02/19xx.psd",
     "Проекты/Проект02/psC7D0.tmp",
     "Проекты/Проект02/1920.md",
-    "Проекты/Проект01/Игра01.canvas",
     "Самообучение/Рендеринг.canvas",
     "Самообучение/Книги.canvas",
     "Самообучение/Английский.canvas",
     "Legacy/Test.md",
     "Legacy/TMA.md",
     "Legacy/WebGL Build Identifier.md",
-    "Legacy/Roadmap для веб-разработчика игр. Введение в наш стек и процессы.md",
-    "Excalidraw/Drawing 2025-11-27 21.53.43.excalidraw.md",
-    "().md"
+    "Legacy/Roadmap для веб-разработчика игр. Введение в наш стек и процессы.md"
   ]
 }
