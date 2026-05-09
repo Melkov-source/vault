@@ -2,21 +2,21 @@
 	"nodes":[
 		{"id":"017cd60c0c8de866","type":"group","x":1680,"y":-400,"width":876,"height":973,"label":"ГАЗ-А"},
 		{"id":"648c10664e7d5dd1","type":"group","x":760,"y":-400,"width":860,"height":720,"label":"АМО-Ф-15"},
-		{"id":"de2950615855391f","type":"file","file":"Проекты/Проект02/res/Pasted image 20260106204800.png","x":1700,"y":-367,"width":400,"height":199},
 		{"id":"8db76e85847d9b3b","type":"file","file":"Проекты/Проект02/res/Pasted image 20260106204700.png","x":1700,"y":153,"width":400,"height":248},
 		{"id":"f7e0795efbc6b6de","type":"text","text":"**ГАЗ-А** — советский автомобиль среднего класса с открытым 5-местным 4-дверным кузовом типа фаэтон. Лицензионная копия автомобиля Ford-A, оборудование и документация на производство которого были куплены советским правительством в США в 1929 году у Ford Motor Company.","x":1700,"y":462,"width":836,"height":91},
-		{"id":"5a17fc179fc68bcc","type":"file","file":"Проекты/Проект02/res/Pasted image 20260106204719.png","x":2118,"y":176,"width":400,"height":225},
-		{"id":"2046074c2ffbe4f4","type":"file","file":"Проекты/Проект02/res/Pasted image 20260106204744.png","x":2118,"y":-106,"width":400,"height":236},
 		{"id":"935afac21c7b2ede","type":"file","file":"Проекты/Проект02/res/Pasted image 20260106204734.png","x":1700,"y":-127,"width":400,"height":236},
-		{"id":"d21e33ffa700421b","type":"file","file":"Проекты/Проект02/res/Pasted image 20260106204821.png","x":2118,"y":-380,"width":400,"height":225},
 		{"id":"624d9f4a3bddfcbf","type":"file","file":"Проекты/Проект02/res/1920s.jpg","x":-320,"y":-180,"width":400,"height":200},
 		{"id":"6819f17c14fd142a","type":"link","url":"https://cdnstatic.rg.ru/uploads/photogallery/2024/11/01/1_fbb.jpg","x":780,"y":-360,"width":400,"height":278},
 		{"id":"002f2dafed9c14bd","type":"file","file":"Проекты/Проект02/res/Pasted image 20260106204401.png","x":780,"y":-60,"width":400,"height":225},
-		{"id":"3a2a72795ae9bb49","type":"file","file":"Проекты/Проект02/res/Pasted image 20260106204427.png","x":1200,"y":-60,"width":300,"height":225},
-		{"id":"33f40a016b18e647","type":"file","file":"Проекты/Проект02/res/Pasted image 20260106204410.png","x":1200,"y":-359,"width":400,"height":277},
 		{"id":"8e83fb55279ad033","type":"text","text":"**АМО-Ф-15** — первый советский грузовой автомобиль, выпускавшийся серийно московским заводом АМО (Автомобильное московское общество). Это двухосный заднеприводный грузовик малой грузоподъёмности: при движении по шоссейным дорогам — до 1,5 тонн, по грунтовым — до 1 тонны.","x":780,"y":200,"width":820,"height":100},
 		{"id":"a89fb6d475b2e488","type":"text","text":"Красная черта","x":-91,"y":406,"width":250,"height":60},
-		{"id":"5903bea7555ecc9b","type":"text","text":"Пролог","x":-570,"y":406,"width":250,"height":60}
+		{"id":"5903bea7555ecc9b","type":"text","text":"Пролог","x":-570,"y":406,"width":250,"height":60},
+		{"id":"de2950615855391f","type":"file","file":"Проекты/Проект02/res/Pasted image 20260106204800.png","x":1700,"y":-367,"width":400,"height":199},
+		{"id":"5a17fc179fc68bcc","type":"file","file":"Проекты/Проект02/res/Pasted image 20260106204719.png","x":2118,"y":176,"width":400,"height":225},
+		{"id":"2046074c2ffbe4f4","type":"file","file":"Проекты/Проект02/res/Pasted image 20260106204744.png","x":2118,"y":-106,"width":400,"height":236},
+		{"id":"d21e33ffa700421b","type":"file","file":"Проекты/Проект02/res/Pasted image 20260106204821.png","x":2118,"y":-380,"width":400,"height":225},
+		{"id":"3a2a72795ae9bb49","type":"file","file":"Проекты/Проект02/res/Pasted image 20260106204427.png","x":1200,"y":-60,"width":300,"height":225},
+		{"id":"33f40a016b18e647","type":"file","file":"Проекты/Проект02/res/Pasted image 20260106204410.png","x":1200,"y":-359,"width":400,"height":277}
 	],
 	"edges":[]
 }

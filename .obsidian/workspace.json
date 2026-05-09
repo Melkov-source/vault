@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JSPipe.Статья.md",
-                "mode": "source",
+                "file": "jspipe-video-tutorial-script.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JSPipe.Статья"
+              "title": "jspipe-video-tutorial-script"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5
+    "width": 265.5,
+    "collapsed": true
   },
   "right": {
     "id": "1b94c8c4170db154",
@@ -173,11 +174,33 @@
   },
   "active": "a3fb683b58846ed1",
   "lastOpenFiles": [
-    "jspipe-habr-article-doc-expanded-backup.md",
-    "JSPipe.Статья.md",
-    "Проекты/WhosThere/Board.canvas",
-    "Проекты/Проект01/Игра00.canvas",
+    "Legacy/BGA/Архитектура.canvas",
+    "jspipe-video-tutorial-script.md",
+    "Legacy/ИП/T1.md",
+    "Legacy/ИП/Pasted image 20250911165629.png",
+    "Legacy/ИП/Трудовой договор.md",
+    "Legacy/ИП/ИП. Доходы - Расходы. Управление.md",
+    "Legacy/TMA.md",
+    "Проекты/Проект02/Untitled.canvas",
+    "Проекты/Проект02/1920.canvas",
+    "Проекты/Проект01/Лор.canvas",
     "Проекты/Проект01/Игра01.canvas",
+    "Проекты/Проект01/Игра00.canvas",
+    "Проекты/Настолка/Drawing 2026-02-21 02.38.00.excalidraw.md",
+    "Проекты/Настолка/Untitled.canvas",
+    "Vecxy/Архитектура.canvas",
+    "Legacy/Test.md",
+    "Legacy/Roadmap для веб-разработчика игр. Введение в наш стек и процессы.md",
+    "Legacy/Self/Книги/Антиутопии.md",
+    "Legacy/Self/Книги/Список.md",
+    "Legacy/Self/Книги/Список книг.md",
+    "Legacy/Self/Бокс/Мысли.md",
+    "Legacy/HH/Резюме (Пробник) (2025 Apr 16).md",
+    "Legacy/HH/Дмитрий Мелков. TiltShift.md",
+    "Legacy/WebGL Build Identifier.md",
+    "JSPipe.Статья.md",
+    "jspipe-habr-article-doc-expanded-backup.md",
+    "Проекты/WhosThere/Board.canvas",
     "Проекты/WhosThere/3D/Персонажи для моделинга - PS2 стиль.md",
     "Проекты/WhosThere/3D/Сюжетные предметы и важные пропсы.md",
     "Проекты/WhosThere/3D/Сводный список моделей - следующие локации.md",
@@ -195,39 +218,17 @@
     "Проекты/WhosThere/Refs/Pasted image 20260223040522.png",
     "Проекты/WhosThere/Refs/Pasted image 20260223040440.png",
     "Проекты/WhosThere/Refs/Pasted image 20260223040148.png",
-    "Проекты/WhosThere/Refs/Pasted image 20260223040140.png",
-    "Проекты/WhosThere/AI/Промт для генерации сценария.md",
-    "Проекты/WhosThere/3D/Модульная Квартира.md",
-    "Проекты/WhosThere/3D/Модульный Подъезд.md",
-    "Проекты/WhosThere/3D/Пропсы Ванная.md",
-    "Проекты/WhosThere/3D/Пропсы Коридор.md",
-    "Проекты/WhosThere/3D/Пропсы Подъезд.md",
-    "Проекты/WhosThere/3D/Пропсы Спальня.md",
-    "Проекты/WhosThere/3D/Список 3D ассетов.md",
     "Проекты/WhosThere/AI",
     "Проекты/WhosThere/Diagrams",
     "Проекты/WhosThere/Refs",
     "Проекты/WhosThere/3D",
     "Проекты/WhosThere/Diagram.svg.xml",
-    "Проекты/Настолка/Untitled.canvas",
-    "Проекты/Настолка/Drawing 2026-02-21 02.38.00.excalidraw.md",
     "Проекты/WhosThere",
     "Проекты/Настолка",
-    "Проекты/Проект01/Лор.canvas",
-    "Проекты/Проект02/Untitled.canvas",
-    "Проекты/Проект02/1920.canvas",
-    "Проекты/Проект02/Untitled.md",
-    "Проекты/Проект02/Сюжет.md",
     "Проекты/Проект02/res",
     "Проекты/Проект02/19xx.psd",
     "Проекты/Проект02/psC7D0.tmp",
-    "Проекты/Проект02/1920.md",
     "Самообучение/Рендеринг.canvas",
-    "Самообучение/Книги.canvas",
-    "Самообучение/Английский.canvas",
-    "Legacy/Test.md",
-    "Legacy/TMA.md",
-    "Legacy/WebGL Build Identifier.md",
-    "Legacy/Roadmap для веб-разработчика игр. Введение в наш стек и процессы.md"
+    "Самообучение/Книги.canvas"
   ]
 }

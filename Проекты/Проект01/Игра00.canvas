@@ -44,12 +44,6 @@
 		{"id":"f4961d2857968be9","type":"text","text":"# Печень","x":800,"y":160,"width":206,"height":60},
 		{"id":"848c09297c1c6c51","type":"text","text":"# Плоть","x":800,"y":-20,"width":206,"height":70},
 		{"id":"4c52f83dd36ef83e","type":"text","text":"# Кровь","x":794,"y":-200,"width":206,"height":80},
-		{"id":"feafbe82047d0865","type":"text","text":"# Мышца","x":1880,"y":724,"width":206,"height":62},
-		{"id":"35a025e0da5785f5","type":"text","text":"# Сердце","x":2140,"y":1000,"width":206,"height":60},
-		{"id":"e719160deb3bf85e","type":"text","text":"# Кровь","x":2412,"y":720,"width":206,"height":71},
-		{"id":"196dd8dbcf479314","type":"text","text":"# Желчь","x":2460,"y":260,"width":206,"height":80},
-		{"id":"4ffff2dde87eae77","type":"text","text":"# Мышца","x":2140,"y":724,"width":206,"height":62},
-		{"id":"55fd70c73a28ff95","type":"text","text":"# Кровь","x":3240,"y":-167,"width":206,"height":71},
 		{"id":"f6d88fdb87f8a012","type":"file","file":"Проекты/Проект01/res/Pasted image 20251122140009.png","x":-560,"y":0,"width":400,"height":214},
 		{"id":"e1badcb7635ddfb4","type":"file","file":"Проекты/Проект01/res/Pasted image 20251122140042.png","x":320,"y":260,"width":362,"height":203},
 		{"id":"56a3357513d31ab5","type":"file","file":"Проекты/Проект01/res/Pasted image 20251122140038.png","x":-560,"y":249,"width":514,"height":214},
@@ -57,7 +51,13 @@
 		{"id":"79ca9323832f5958","type":"file","file":"Проекты/Проект01/res/Pasted image 20251122140018.png","x":-114,"y":11,"width":400,"height":203},
 		{"id":"a0fa806fdb18ca96","type":"file","file":"Проекты/Проект01/res/Pasted image 20251122140003.png","x":-114,"y":-240,"width":400,"height":213},
 		{"id":"4403d21bf3e9f5d0","type":"file","file":"Проекты/Проект01/res/Pasted image 20251122140024.png","x":320,"y":11,"width":291,"height":202},
-		{"id":"c50d5d2db389f4c9","type":"file","file":"Проекты/Проект01/res/Pasted image 20251122135958.png","x":-560,"y":-240,"width":400,"height":206}
+		{"id":"c50d5d2db389f4c9","type":"file","file":"Проекты/Проект01/res/Pasted image 20251122135958.png","x":-560,"y":-240,"width":400,"height":206},
+		{"id":"feafbe82047d0865","type":"text","text":"# Мышца","x":1880,"y":724,"width":206,"height":62},
+		{"id":"35a025e0da5785f5","type":"text","text":"# Сердце","x":2140,"y":1000,"width":206,"height":60},
+		{"id":"e719160deb3bf85e","type":"text","text":"# Кровь","x":2412,"y":720,"width":206,"height":71},
+		{"id":"196dd8dbcf479314","type":"text","text":"# Желчь","x":2460,"y":260,"width":206,"height":80},
+		{"id":"4ffff2dde87eae77","type":"text","text":"# Мышца","x":2140,"y":724,"width":206,"height":62},
+		{"id":"55fd70c73a28ff95","type":"text","text":"# Кровь","x":3240,"y":-167,"width":206,"height":71}
 	],
 	"edges":[
 		{"id":"a342756aaa7c48cc","fromNode":"63e296a5b851038f","fromSide":"bottom","toNode":"83ba323bf8f05ff0","toSide":"top"},
